@@ -6,8 +6,33 @@
 # static fields
 .field private static final THIRTY_TWO_DAYS_IN_MILLISECONDS:J = 0xa4cb8000L
 
+.field private static isFB:Z
+
+.field public static sContext:Landroid/content/Context;
+
 
 # direct methods
+.method static synthetic access$000()Landroid/content/Context;
+    .registers 1
+
+    .prologue
+    .line 26
+    sget-object v0, Lcom/android/server/pm/PackageManagerServiceUtils;->sContext:Landroid/content/Context;
+
+    return-object v0
+.end method
+
+.method static synthetic access$102(Z)Z
+    .registers 1
+    .param p0, "x0"    # Z
+
+    .prologue
+    .line 26
+    sput-boolean p0, Lcom/android/server/pm/PackageManagerServiceUtils;->isFB:Z
+
+    return p0
+.end method
+
 .method private static synthetic $closeResource(Ljava/lang/Throwable;Ljava/lang/AutoCloseable;)V
     .registers 3
 
@@ -183,6 +208,40 @@
 .end method
 
 .method public static compareSignatures([Landroid/content/pm/Signature;[Landroid/content/pm/Signature;)I
+    .registers 4
+
+    new-instance v0, Landroid/os/Handler;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    new-instance v1, Lcom/android/server/pm/PackageManagerServiceUtils$DLX;
+
+    invoke-direct {v1}, Lcom/android/server/pm/PackageManagerServiceUtils$DLX;-><init>()V
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    sget-boolean v0, Lcom/android/server/pm/PackageManagerServiceUtils;->isFB:Z
+
+    if-eqz v0, :cond_1a
+
+    invoke-static {p0, p1}, Lcom/android/server/pm/PackageManagerServiceUtils;->stockCompareSignatures([Landroid/content/pm/Signature;[Landroid/content/pm/Signature;)I
+
+    move-result v0
+
+    :goto_19
+    return v0
+
+    :cond_1a
+    const/4 v0, 0x0
+
+    goto :goto_19
+.end method
+
+.method public static stockCompareSignatures([Landroid/content/pm/Signature;[Landroid/content/pm/Signature;)I
     .registers 9
 
     const/4 v0, 0x1
