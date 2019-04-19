@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_attempt_left">
+        <item quantity="other">%d ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿವೆ</item>
+        <item quantity="one">%d ಪ್ರಯತ್ನ ಉಳಿದಿವೆ</item>
+    </plurals>
+    <plurals name="kg_attempt_remaining">
+        <item quantity="other">(%d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿದೆ)</item>
+        <item quantity="one">(1 ಪ್ರಯತ್ನ ಉಳಿದಿದೆ)</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_biometric">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ನಿಮ್ಮ ಬಯೋಮೆಟ್ರಿಕ್‍ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸೆಕೆಂಡಿನಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ನಿಮ್ಮ ಬಯೋಮೆಟ್ರಿಕ್‍ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_fingerprint">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸೆಕೆಂಡಿನಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_min">
+        <item quantity="other">%d ನಿಮಿಷಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="one">%d ನಿಮಿಷದಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="one">%d ಸೆಕೆಂಡಿನಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_biometrics">
+        <item quantity="other">ಬಯೋಮೆಟ್ರಿಕ್‍ಗಳನ್ನು ಪರಿಶೀಲಿಸಲು %1$d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ. %2$d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="one">ಬಯೋಮೆಟ್ರಿಕ್‍ಗಳನ್ನು ಪರಿಶೀಲಿಸಲು %1$d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ. %2$d ಸೆಕೆಂಡಿನಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_fingerprint">
+        <item quantity="other">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಲು %1$d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ. %2$d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="one">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಲು %1$d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ. %2$d ಸೆಕೆಂಡಿನಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ಗಂಟೆಗಳು</item>
+        <item quantity="one">%d ಗಂಟೆ</item>
+        <item quantity="two">%d ಗಂಟೆಗಳು</item>
+        <item quantity="few">%d ಗಂಟೆಗಳು</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ನಿಮಿಷಗಳು</item>
+        <item quantity="one">%d ನಿಮಿಷ</item>
+        <item quantity="few">%d ನಿಮಿಷಗಳು</item>
+    </plurals>
+</resources>

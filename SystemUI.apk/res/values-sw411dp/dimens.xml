@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_security_height">460.0dip</dimen>
+    <dimen name="kg_iris_preview_height">231.0dip</dimen>
+    <dimen name="kg_option_container_margin_side">19.0dip</dimen>
+    <dimen name="kg_password_eca_margin_top_land">130.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_center_margin">10.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_min_width">156.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_view_height">36.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_view_margin_bottom">11.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_button_view_width">270.0dip</dimen>
+    <dimen name="kg_set_as_wallpaper_text_size">15.0dip</dimen>
+    <dimen name="kg_title_text_size">18.0dip</dimen>
+    <dimen name="kg_title_text_view_height">89.0dip</dimen>
+    <dimen name="kg_wallpaper_description_text_size">15.0dip</dimen>
+</resources>

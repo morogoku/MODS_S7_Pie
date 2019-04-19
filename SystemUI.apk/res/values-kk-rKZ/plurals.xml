@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_attempt_left">
+        <item quantity="other">%d әрекет қалды</item>
+        <item quantity="one">%d әрекет қалды</item>
+    </plurals>
+    <plurals name="kg_attempt_remaining">
+        <item quantity="other">(%d әрекет қалды)</item>
+        <item quantity="one">(1 әрекет қалды)</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_biometric">
+        <item quantity="other">Биометриялық деректер әрекетін %d секунд ішінде қайталап көріңіз</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Биометриялық деректер әрекетін %d секунд ішінде қайталап көріңіз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_fingerprint">
+        <item quantity="other">Саусақ іздері әрекетін %d секунд ішінде қайталап көріңіз</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Саусақ іздері әрекетін %d секунд ішінде қайталап көріңіз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_min">
+        <item quantity="other">%d минуттан кейін қайталау</item>
+        <item quantity="one">%d минуттан кейін әрекетті қайталау</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">%d секундтан кейін қайталау</item>
+        <item quantity="one">%d секундтан кейін әрекетті қайталау</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_biometrics">
+        <item quantity="other">Биометриялық деректерді растау үшін %1$d рет қате әрекет жасалды. Әрекетті %2$d секундтан кейін қайталаңыз.</item>
+        <item quantity="one">Биометриялық деректерді растау үшін %1$d рет қате әрекет жасалды. Әрекетті %2$d секундтан кейін қайталаңыз.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_fingerprint">
+        <item quantity="other">Саусақ іздерін растау үшін %1$d рет қате әрекет жасалды. Әрекетті %2$d секундтан кейін қайталаңыз.</item>
+        <item quantity="one">Саусақ іздерін растау үшін %1$d рет қате әрекет жасалды. Әрекетті %2$d секундтан кейін қайталаңыз.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">%d сағат</item>
+        <item quantity="two">%d сағат</item>
+        <item quantity="few">%d сағат</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+        <item quantity="few">%d минут</item>
+    </plurals>
+</resources>

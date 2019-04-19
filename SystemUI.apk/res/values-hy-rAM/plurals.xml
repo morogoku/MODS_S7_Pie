@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_attempt_left">
+        <item quantity="other">Մնացել է %d փորձ</item>
+        <item quantity="one">%d փորձ է մնացել</item>
+    </plurals>
+    <plurals name="kg_attempt_remaining">
+        <item quantity="other">(%d փորձ է մնացել)</item>
+        <item quantity="one">(1 փորձ է մնացել)</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_biometric">
+        <item quantity="other">Ձեր կենսաչափական տվյալները նորից փորձեք %d վայրկյանից</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր կենսաչափական տվյալները նորից փորձեք %d վայրկյանից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_fingerprint">
+        <item quantity="other">Ձեր մատնահետքը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր մատնահետքը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_min">
+        <item quantity="other">Նորից փորձեք %d րոպեից</item>
+        <item quantity="one">Նորից փորձեք %d րոպեից</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">Նորից փորձեք %d վայրկյանից</item>
+        <item quantity="one">Նորից փորձեք %d վայրկյանից</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_biometrics">
+        <item quantity="other">Կենսաչափական տվյալները ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Կենսաչափական տվյալները ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_fingerprint">
+        <item quantity="other">Մատնահետքերը ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Մատնահետքերը ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="one">%d ժամ</item>
+        <item quantity="two">%d ժամ</item>
+        <item quantity="few">%d ժամ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="one">%d րոպե</item>
+        <item quantity="few">%d րոպե</item>
+    </plurals>
+</resources>
