@@ -15794,51 +15794,8 @@
 .end method
 
 .method isSecureLocked(Lcom/android/server/wm/WindowState;)Z
-    .registers 5
+    .registers 2
 
-    iget-object v0, p1, Lcom/android/server/wm/WindowState;->mAttrs:Landroid/view/WindowManager$LayoutParams;
-
-    iget v0, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
-
-    and-int/lit16 v0, v0, 0x2000
-
-    const/4 v1, 0x1
-
-    if-eqz v0, :cond_a
-
-    return v1
-
-    :cond_a
-    invoke-static {}, Landroid/app/admin/DevicePolicyCache;->getInstance()Landroid/app/admin/DevicePolicyCache;
-
-    move-result-object v0
-
-    iget v2, p1, Lcom/android/server/wm/WindowState;->mOwnerUid:I
-
-    invoke-static {v2}, Landroid/os/UserHandle;->getUserId(I)I
-
-    move-result v2
-
-    invoke-virtual {v0, v2}, Landroid/app/admin/DevicePolicyCache;->getScreenCaptureDisabled(I)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1b
-
-    return v1
-
-    :cond_1b
-    iget-object v0, p0, Lcom/android/server/wm/WindowManagerService;->mSamsungWindowManager:Lcom/android/server/wm/SamsungWindowManagerService;
-
-    invoke-virtual {v0, p1}, Lcom/android/server/wm/SamsungWindowManagerService;->isScreenCaptureDisabledLocked(Lcom/android/server/wm/WindowState;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_24
-
-    return v1
-
-    :cond_24
     const/4 v0, 0x0
 
     return v0
