@@ -1601,6 +1601,8 @@
 
     :cond_199
     iput-object v13, v15, Lcom/android/server/pm/PackageManagerService;->mContext:Landroid/content/Context;
+	
+	sput-object v13, Lcom/android/server/pm/PackageManagerServiceUtils;->sContext:Landroid/content/Context;
 
     move/from16 v5, p3
 
