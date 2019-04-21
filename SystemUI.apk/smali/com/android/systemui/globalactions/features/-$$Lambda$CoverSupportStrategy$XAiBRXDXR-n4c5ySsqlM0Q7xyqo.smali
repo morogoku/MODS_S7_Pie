@@ -3,7 +3,7 @@
 .source "lambda"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+.implements Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
 
 
 # instance fields

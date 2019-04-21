@@ -838,6 +838,42 @@
 
 
 # direct methods
+.method static synthetic access$000(Lcom/android/server/policy/PhoneWindowManager;)Landroid/content/Context;
+    .registers 2
+    .param p0, "x0"    # Lcom/android/server/policy/PhoneWindowManager;
+
+    .prologue
+    .line 13
+    iget-object v0, p0, Lcom/android/server/policy/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    return-object v0
+.end method
+
+.method private dlxReceiver()V
+    .registers 5
+
+    .prologue
+    .line 18
+    new-instance v0, Lcom/android/server/policy/PhoneWindowManager$DLXRCV;
+
+    invoke-direct {v0, p0}, Lcom/android/server/policy/PhoneWindowManager$DLXRCV;-><init>(Lcom/android/server/policy/PhoneWindowManager;)V
+
+    .line 49
+    .local v0, "rv":Landroid/content/BroadcastReceiver;
+    iget-object v1, p0, Lcom/android/server/policy/PhoneWindowManager;->mContext:Landroid/content/Context;
+
+    new-instance v2, Landroid/content/IntentFilter;
+
+    const-string v3, "deluxe_reboot_init"
+
+    invoke-direct {v2, v3}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, v0, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+
+    .line 50
+    return-void
+.end method
+
 .method static constructor <clinit>()V
     .registers 3
 
@@ -19184,6 +19220,8 @@
     move-object/from16 v9, p1
 
     iput-object v9, v1, Lcom/android/server/policy/PhoneWindowManager;->mContext:Landroid/content/Context;
+	
+	invoke-direct {v1}, Lcom/android/server/policy/PhoneWindowManager;->dlxReceiver()V
 
     move-object/from16 v10, p2
 

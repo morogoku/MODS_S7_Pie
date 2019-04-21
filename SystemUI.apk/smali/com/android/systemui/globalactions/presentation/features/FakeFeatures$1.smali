@@ -58,7 +58,7 @@
 
     iget-object v3, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures$1;->this$0:Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;
 
-    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactions/util/LogWrapper;
+    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     move-result-object v3
 
@@ -90,7 +90,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v3, "com.android.systemui.globalactions.ACTION_UPDATE_SYSTEM_FEATURE"
 
@@ -118,7 +118,7 @@
 
     iget-object v3, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures$1;->this$0:Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;
 
-    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactions/util/LogWrapper;
+    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     move-result-object v3
 
@@ -126,7 +126,7 @@
 
     const-string v5, "added"
 
-    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -139,7 +139,7 @@
 
     iget-object v3, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures$1;->this$0:Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;
 
-    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactions/util/LogWrapper;
+    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     move-result-object v3
 
@@ -147,7 +147,7 @@
 
     const-string/jumbo v5, "updated"
 
-    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -168,7 +168,7 @@
 
     iget-object v3, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures$1;->this$0:Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;
 
-    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactions/util/LogWrapper;
+    invoke-static {v3}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     move-result-object v3
 
@@ -176,7 +176,7 @@
 
     const-string/jumbo v5, "removed"
 
-    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     :goto_0

@@ -1,5 +1,5 @@
 .class public Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;
-.super Lcom/samsung/android/globalactions/presentation/view/SecGlobalActionsDialogBase;
+.super Lcom/samsung/android/globalactionsdlx/presentation/view/SecGlobalActionsDialogBase;
 .source "SecGlobalActionsDialog.java"
 
 
@@ -15,7 +15,7 @@
 
     invoke-direct {v0}, Lcom/android/systemui/globalactions/presentation/view/SystemUIResourceFactory;-><init>()V
 
-    invoke-direct {p0, p1, v0}, Lcom/samsung/android/globalactions/presentation/view/SecGlobalActionsDialogBase;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/presentation/view/ResourceFactory;)V
+    invoke-direct {p0, p1, v0}, Lcom/samsung/android/globalactionsdlx/presentation/view/SecGlobalActionsDialogBase;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/presentation/view/ResourceFactory;)V
 
     const v0, 0x7f13027c
 
@@ -55,11 +55,11 @@
 
     move-object v13, v0
 
-    new-instance v0, Lcom/samsung/android/globalactions/util/DefaultUtilFactory;
+    new-instance v0, Lcom/samsung/android/globalactionsdlx/util/DefaultUtilFactory;
 
     iget-object v1, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mContext:Landroid/content/Context;
 
-    invoke-direct {v0, v1, v13}, Lcom/samsung/android/globalactions/util/DefaultUtilFactory;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/presentation/SecGlobalActionsManager;)V
+    invoke-direct {v0, v1, v13}, Lcom/samsung/android/globalactionsdlx/util/DefaultUtilFactory;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsManager;)V
 
     move-object v14, v0
 
@@ -67,71 +67,71 @@
 
     iget-object v1, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mContext:Landroid/content/Context;
 
-    invoke-direct {v0, v1, v12, v14}, Lcom/android/systemui/globalactions/util/SystemUIUtilFactory;-><init>(Landroid/content/Context;Lcom/android/systemui/plugins/GlobalActions$GlobalActionsManager;Lcom/samsung/android/globalactions/util/UtilFactory;)V
+    invoke-direct {v0, v1, v12, v14}, Lcom/android/systemui/globalactions/util/SystemUIUtilFactory;-><init>(Landroid/content/Context;Lcom/android/systemui/plugins/GlobalActions$GlobalActionsManager;Lcom/samsung/android/globalactionsdlx/util/UtilFactory;)V
 
     move-object v15, v0
 
-    const-class v0, Lcom/samsung/android/globalactions/util/LogWrapper;
+    const-class v0, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    invoke-interface {v14, v0}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v0}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/samsung/android/globalactions/util/LogWrapper;
+    check-cast v0, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    iput-object v0, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iput-object v0, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    iget-object v0, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v0, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v1, "[SystemUI]"
 
-    invoke-virtual {v0, v1}, Lcom/samsung/android/globalactions/util/LogWrapper;->setPackageTag(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->setPackageTag(Ljava/lang/String;)V
 
-    const-class v0, Lcom/samsung/android/globalactions/util/HandlerUtil;
+    const-class v0, Lcom/samsung/android/globalactionsdlx/util/HandlerUtil;
 
-    invoke-interface {v14, v0}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v0}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/samsung/android/globalactions/util/HandlerUtil;
+    check-cast v0, Lcom/samsung/android/globalactionsdlx/util/HandlerUtil;
 
-    iput-object v0, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mHandlerUtil:Lcom/samsung/android/globalactions/util/HandlerUtil;
+    iput-object v0, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mHandlerUtil:Lcom/samsung/android/globalactionsdlx/util/HandlerUtil;
 
     new-instance v0, Lcom/android/systemui/globalactions/presentation/features/GlobalActionFeatures;
 
     iget-object v1, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mContext:Landroid/content/Context;
 
-    const-class v2, Lcom/samsung/android/globalactions/util/SettingsWrapper;
+    const-class v2, Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;
 
-    invoke-interface {v14, v2}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v2}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lcom/samsung/android/globalactions/util/SettingsWrapper;
+    check-cast v2, Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;
 
-    const-class v3, Lcom/samsung/android/globalactions/util/SystemPropertiesWrapper;
+    const-class v3, Lcom/samsung/android/globalactionsdlx/util/SystemPropertiesWrapper;
 
-    invoke-interface {v14, v3}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v3}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lcom/samsung/android/globalactions/util/SystemPropertiesWrapper;
+    check-cast v3, Lcom/samsung/android/globalactionsdlx/util/SystemPropertiesWrapper;
 
-    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/android/systemui/globalactions/presentation/features/GlobalActionFeatures;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/util/SettingsWrapper;Lcom/samsung/android/globalactions/util/SystemPropertiesWrapper;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/android/systemui/globalactions/presentation/features/GlobalActionFeatures;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;Lcom/samsung/android/globalactionsdlx/util/SystemPropertiesWrapper;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
 
     new-instance v1, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;
 
-    new-instance v2, Lcom/samsung/android/globalactions/util/SystemConditionChecker;
+    new-instance v2, Lcom/samsung/android/globalactionsdlx/util/SystemConditionChecker;
 
-    iget-object v3, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v3, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    invoke-direct {v2, v14, v0, v3}, Lcom/samsung/android/globalactions/util/SystemConditionChecker;-><init>(Lcom/samsung/android/globalactions/util/UtilFactory;Lcom/samsung/android/globalactions/presentation/features/Features;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+    invoke-direct {v2, v14, v0, v3}, Lcom/samsung/android/globalactionsdlx/util/SystemConditionChecker;-><init>(Lcom/samsung/android/globalactionsdlx/util/UtilFactory;Lcom/samsung/android/globalactionsdlx/presentation/features/Features;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
 
-    iget-object v3, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v3, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    invoke-direct {v1, v15, v2, v3}, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;-><init>(Lcom/samsung/android/globalactions/util/UtilFactory;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+    invoke-direct {v1, v15, v2, v3}, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;-><init>(Lcom/samsung/android/globalactionsdlx/util/UtilFactory;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
 
     new-instance v2, Lcom/android/systemui/globalactions/util/SecGlobalActionsAnalyticsImpl;
 
@@ -147,9 +147,9 @@
 
     iget-object v3, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mContext:Landroid/content/Context;
 
-    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    invoke-direct {v2, v3, v1, v4}, Lcom/android/systemui/globalactions/util/FakeConditionChecker;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+    invoke-direct {v2, v3, v1, v4}, Lcom/android/systemui/globalactions/util/FakeConditionChecker;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
 
     move-object v1, v2
 
@@ -157,9 +157,9 @@
 
     iget-object v3, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mContext:Landroid/content/Context;
 
-    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    invoke-direct {v2, v3, v0, v4}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/presentation/features/Features;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+    invoke-direct {v2, v3, v0, v4}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/presentation/features/Features;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
 
     move-object v0, v2
 
@@ -168,17 +168,17 @@
 
     move-object v9, v1
 
-    new-instance v0, Lcom/samsung/android/globalactions/presentation/viewmodel/DefaultActionViewModelFactory;
+    new-instance v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;
 
-    iget-object v1, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mResourceFactory:Lcom/samsung/android/globalactions/presentation/view/ResourceFactory;
+    iget-object v1, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mResourceFactory:Lcom/samsung/android/globalactionsdlx/presentation/view/ResourceFactory;
 
-    invoke-direct {v0, v14, v1, v9, v10}, Lcom/samsung/android/globalactions/presentation/viewmodel/DefaultActionViewModelFactory;-><init>(Lcom/samsung/android/globalactions/util/UtilFactory;Lcom/samsung/android/globalactions/presentation/view/ResourceFactory;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/SecGlobalActionsAnalytics;)V
+    invoke-direct {v0, v14, v1, v9, v10}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;-><init>(Lcom/samsung/android/globalactionsdlx/util/UtilFactory;Lcom/samsung/android/globalactionsdlx/presentation/view/ResourceFactory;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/SecGlobalActionsAnalytics;)V
 
     move-object v8, v0
 
     new-instance v0, Lcom/android/systemui/globalactions/presentation/viewmodel/ActionViewModelFactoryDecorator;
 
-    iget-object v5, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mResourceFactory:Lcom/samsung/android/globalactions/presentation/view/ResourceFactory;
+    iget-object v5, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mResourceFactory:Lcom/samsung/android/globalactionsdlx/presentation/view/ResourceFactory;
 
     move-object v2, v0
 
@@ -190,7 +190,7 @@
 
     move-object v7, v10
 
-    invoke-direct/range {v2 .. v7}, Lcom/android/systemui/globalactions/presentation/viewmodel/ActionViewModelFactoryDecorator;-><init>(Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactions/util/UtilFactory;Lcom/samsung/android/globalactions/presentation/view/ResourceFactory;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/SecGlobalActionsAnalytics;)V
+    invoke-direct/range {v2 .. v7}, Lcom/android/systemui/globalactions/presentation/viewmodel/ActionViewModelFactoryDecorator;-><init>(Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactionsdlx/util/UtilFactory;Lcom/samsung/android/globalactionsdlx/presentation/view/ResourceFactory;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/SecGlobalActionsAnalytics;)V
 
     move-object v7, v0
 
@@ -198,7 +198,7 @@
 
     iget-object v1, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mContext:Landroid/content/Context;
 
-    iget-object v6, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v6, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     move-object/from16 v0, v17
 
@@ -218,57 +218,57 @@
 
     move-object/from16 v7, v18
 
-    invoke-direct/range {v0 .. v7}, Lcom/android/systemui/globalactions/presentation/features/GlobalActionsFeatureFactory;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactions/presentation/view/ExtendableGlobalActionsView;Lcom/samsung/android/globalactions/util/UtilFactory;Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactions/presentation/features/Features;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+    invoke-direct/range {v0 .. v7}, Lcom/android/systemui/globalactions/presentation/features/GlobalActionsFeatureFactory;-><init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/presentation/view/ExtendableGlobalActionsView;Lcom/samsung/android/globalactionsdlx/util/UtilFactory;Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactionsdlx/presentation/features/Features;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
 
     move-object/from16 v7, v17
 
-    invoke-virtual {v8, v7}, Lcom/samsung/android/globalactions/presentation/viewmodel/DefaultActionViewModelFactory;->setFeatureFactory(Lcom/samsung/android/globalactions/presentation/features/FeatureFactory;)V
+    invoke-virtual {v8, v7}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->setFeatureFactory(Lcom/samsung/android/globalactionsdlx/presentation/features/FeatureFactory;)V
 
-    invoke-virtual {v12, v7}, Lcom/android/systemui/globalactions/presentation/viewmodel/ActionViewModelFactoryDecorator;->setFeatureFactory(Lcom/samsung/android/globalactions/presentation/features/FeatureFactory;)V
+    invoke-virtual {v12, v7}, Lcom/android/systemui/globalactions/presentation/viewmodel/ActionViewModelFactoryDecorator;->setFeatureFactory(Lcom/samsung/android/globalactionsdlx/presentation/features/FeatureFactory;)V
 
-    new-instance v6, Lcom/samsung/android/globalactions/presentation/SecGlobalActionsPresenter;
+    new-instance v6, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsPresenter;
 
-    const-class v0, Lcom/samsung/android/globalactions/util/BroadcastManager;
+    const-class v0, Lcom/samsung/android/globalactionsdlx/util/BroadcastManager;
 
-    invoke-interface {v14, v0}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v0}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
     move-object v5, v0
 
-    check-cast v5, Lcom/samsung/android/globalactions/util/BroadcastManager;
+    check-cast v5, Lcom/samsung/android/globalactionsdlx/util/BroadcastManager;
 
-    const-class v0, Lcom/samsung/android/globalactions/util/SystemController;
+    const-class v0, Lcom/samsung/android/globalactionsdlx/util/SystemController;
 
-    invoke-interface {v14, v0}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v0}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
     move-object/from16 v17, v0
 
-    check-cast v17, Lcom/samsung/android/globalactions/util/SystemController;
+    check-cast v17, Lcom/samsung/android/globalactionsdlx/util/SystemController;
 
-    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v4, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-    const-class v0, Lcom/samsung/android/globalactions/util/ThemeChecker;
+    const-class v0, Lcom/samsung/android/globalactionsdlx/util/ThemeChecker;
 
-    invoke-interface {v14, v0}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v0}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
     move-object/from16 v18, v0
 
-    check-cast v18, Lcom/samsung/android/globalactions/util/ThemeChecker;
+    check-cast v18, Lcom/samsung/android/globalactionsdlx/util/ThemeChecker;
 
-    const-class v0, Lcom/samsung/android/globalactions/util/ContentObserverWrapper;
+    const-class v0, Lcom/samsung/android/globalactionsdlx/util/ContentObserverWrapper;
 
-    invoke-interface {v14, v0}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v14, v0}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
     move-object/from16 v19, v0
 
-    check-cast v19, Lcom/samsung/android/globalactions/util/ContentObserverWrapper;
+    check-cast v19, Lcom/samsung/android/globalactionsdlx/util/ContentObserverWrapper;
 
     move-object v0, v6
 
@@ -306,11 +306,11 @@
 
     move-object/from16 v10, v19
 
-    invoke-direct/range {v0 .. v10}, Lcom/samsung/android/globalactions/presentation/SecGlobalActionsPresenter;-><init>(Lcom/samsung/android/globalactions/presentation/view/ExtendableGlobalActionsView;Lcom/samsung/android/globalactions/presentation/features/FeatureFactory;Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactions/presentation/SecGlobalActionsManager;Lcom/samsung/android/globalactions/util/BroadcastManager;Lcom/samsung/android/globalactions/util/SystemController;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/LogWrapper;Lcom/samsung/android/globalactions/util/ThemeChecker;Lcom/samsung/android/globalactions/util/ContentObserverWrapper;)V
+    invoke-direct/range {v0 .. v10}, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsPresenter;-><init>(Lcom/samsung/android/globalactionsdlx/presentation/view/ExtendableGlobalActionsView;Lcom/samsung/android/globalactionsdlx/presentation/features/FeatureFactory;Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsManager;Lcom/samsung/android/globalactionsdlx/util/BroadcastManager;Lcom/samsung/android/globalactionsdlx/util/SystemController;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;Lcom/samsung/android/globalactionsdlx/util/ThemeChecker;Lcom/samsung/android/globalactionsdlx/util/ContentObserverWrapper;)V
 
-    iput-object v12, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mPresenter:Lcom/samsung/android/globalactions/presentation/SecGlobalActionsPresenter;
+    iput-object v12, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mPresenter:Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsPresenter;
 
-    iput-object v13, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iput-object v13, v11, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     return-void
 .end method
