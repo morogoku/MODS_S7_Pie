@@ -3,20 +3,20 @@
 .source "KnoxMDMStrategy.java"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/presentation/strategies/ActionInteractionStrategy;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/strategies/ActionInteractionStrategy;
 
 
 # instance fields
-.field private final mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+.field private final mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
 
 # direct methods
-.method public constructor <init>(Lcom/samsung/android/globalactions/util/ConditionChecker;)V
+.method public constructor <init>(Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iput-object p1, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     return-void
 .end method
@@ -26,11 +26,11 @@
 .method public onLongPressPowerAction()Z
     .locals 2
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     sget-object v1, Lcom/android/systemui/globalactions/util/SystemUIConditions;->IS_SAFE_MODE_ALLOWED:Lcom/android/systemui/globalactions/util/SystemUIConditions;
 
-    invoke-interface {v0, v1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -42,21 +42,21 @@
 .method public onPressDataModeAction()Z
     .locals 2
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     sget-object v1, Lcom/android/systemui/globalactions/util/SystemUIConditions;->IS_CELLULAR_DATA_ALLOWED:Lcom/android/systemui/globalactions/util/SystemUIConditions;
 
-    invoke-interface {v0, v1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     sget-object v1, Lcom/android/systemui/globalactions/util/SystemUIConditions;->IS_SETTINGS_CHANGES_ALLOWED:Lcom/android/systemui/globalactions/util/SystemUIConditions;
 
-    invoke-interface {v0, v1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -80,11 +80,11 @@
 .method public onPressPowerAction()Z
     .locals 2
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/KnoxMDMStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     sget-object v1, Lcom/android/systemui/globalactions/util/SystemUIConditions;->IS_POWER_OFF_ALLOWED:Lcom/android/systemui/globalactions/util/SystemUIConditions;
 
-    invoke-interface {v0, v1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
