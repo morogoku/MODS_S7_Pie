@@ -36,7 +36,7 @@
 
     iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil$1;->this$0:Lcom/android/systemui/globalactions/util/CoverUtil;
 
-    invoke-static {v0}, Lcom/android/systemui/globalactions/util/CoverUtil;->access$000(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactions/util/LogWrapper;
+    invoke-static {v0}, Lcom/android/systemui/globalactions/util/CoverUtil;->access$000(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     move-result-object v0
 
@@ -70,11 +70,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil$1;->this$0:Lcom/android/systemui/globalactions/util/CoverUtil;
 
-    invoke-static {v0}, Lcom/android/systemui/globalactions/util/CoverUtil;->access$100(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+    invoke-static {v0}, Lcom/android/systemui/globalactions/util/CoverUtil;->access$100(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
 
     move-result-object v0
 
@@ -90,7 +90,7 @@
 
     iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil$1;->this$0:Lcom/android/systemui/globalactions/util/CoverUtil;
 
-    invoke-static {v0}, Lcom/android/systemui/globalactions/util/CoverUtil;->access$100(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+    invoke-static {v0}, Lcom/android/systemui/globalactions/util/CoverUtil;->access$100(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lcom/samsung/android/globalactions/util/ClearCoverStateListener;->onStateChanged(Z)V
+    invoke-interface {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;->onStateChanged(Z)V
 
     :cond_0
     return-void
