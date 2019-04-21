@@ -3,7 +3,7 @@
 .source "FakeConditionChecker.java"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/util/ConditionChecker;
+.implements Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
 
 # static fields
@@ -22,9 +22,9 @@
 # instance fields
 .field private final mContext:Landroid/content/Context;
 
-.field private final mDefaultSystemCondition:Lcom/samsung/android/globalactions/util/ConditionChecker;
+.field private final mDefaultSystemCondition:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-.field private final mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+.field private final mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
 .field private mReceiver:Landroid/content/BroadcastReceiver;
 
@@ -42,26 +42,26 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mContext:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iput-object p2, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-    iput-object p3, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iput-object p3, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     invoke-direct {p0}, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->init()V
 
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/android/systemui/globalactions/util/FakeConditionChecker;)Lcom/samsung/android/globalactions/util/LogWrapper;
+.method static synthetic access$000(Lcom/android/systemui/globalactions/util/FakeConditionChecker;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
     .locals 1
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     return-object v0
 .end method
@@ -108,13 +108,13 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v1, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v2, "FakeConditionChecker"
 
     const-string v3, "initialized"
 
-    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -148,7 +148,7 @@
 
     move-result v1
 
-    iget-object v2, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v2, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v3, "FakeConditionChecker"
 
@@ -176,14 +176,14 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_0
-    iget-object v1, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v1, p0, Lcom/android/systemui/globalactions/util/FakeConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-    invoke-interface {v1, p1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v1
 

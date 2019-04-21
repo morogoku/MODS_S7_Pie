@@ -3,28 +3,28 @@
 .source "BixbyOnPowerKeyStrategy.java"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/presentation/strategies/ActionsCreationStrategy;
-.implements Lcom/samsung/android/globalactions/presentation/strategies/InitializationStrategy;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/strategies/ActionsCreationStrategy;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/strategies/InitializationStrategy;
 
 
 # instance fields
 .field private final SET_BIXBY_DIALOG:I
 
-.field private final mBixbyHandler:Lcom/samsung/android/globalactions/util/BixbyHandler;
+.field private final mBixbyHandler:Lcom/samsung/android/globalactionsdlx/util/BixbyHandler;
 
-.field private final mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+.field private final mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-.field private final mGlobalActions:Lcom/samsung/android/globalactions/presentation/SecGlobalActions;
+.field private final mGlobalActions:Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;
 
-.field private final mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+.field private final mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-.field private final mSettingsWrapper:Lcom/samsung/android/globalactions/util/SettingsWrapper;
+.field private final mSettingsWrapper:Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;
 
-.field private final mViewModelFactory:Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;
+.field private final mViewModelFactory:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;
 
 
 # direct methods
-.method public constructor <init>(Lcom/samsung/android/globalactions/presentation/SecGlobalActions;Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/BixbyHandler;Lcom/samsung/android/globalactions/util/SettingsWrapper;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+.method public constructor <init>(Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/BixbyHandler;Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
     .locals 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -33,55 +33,55 @@
 
     iput v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->SET_BIXBY_DIALOG:I
 
-    iput-object p1, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mGlobalActions:Lcom/samsung/android/globalactions/presentation/SecGlobalActions;
+    iput-object p1, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mGlobalActions:Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;
 
-    iput-object p2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mViewModelFactory:Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;
+    iput-object p2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mViewModelFactory:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;
 
-    iput-object p3, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iput-object p3, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-    iput-object p4, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mBixbyHandler:Lcom/samsung/android/globalactions/util/BixbyHandler;
+    iput-object p4, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mBixbyHandler:Lcom/samsung/android/globalactionsdlx/util/BixbyHandler;
 
-    iput-object p5, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mSettingsWrapper:Lcom/samsung/android/globalactions/util/SettingsWrapper;
+    iput-object p5, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mSettingsWrapper:Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;
 
-    iput-object p6, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iput-object p6, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onCreateActions(Lcom/samsung/android/globalactions/presentation/SecGlobalActions;)V
+.method public onCreateActions(Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;)V
     .locals 2
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-    sget-object v1, Lcom/samsung/android/globalactions/util/SystemConditions;->IS_EMERGENCY_MODE:Lcom/samsung/android/globalactions/util/SystemConditions;
+    sget-object v1, Lcom/samsung/android/globalactionsdlx/util/SystemConditions;->IS_EMERGENCY_MODE:Lcom/samsung/android/globalactionsdlx/util/SystemConditions;
 
-    invoke-interface {v0, v1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     sget-object v1, Lcom/android/systemui/globalactions/util/SystemUIConditions;->IS_BIXBY_PACKAGE_ENABLED:Lcom/android/systemui/globalactions/util/SystemUIConditions;
 
-    invoke-interface {v0, v1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mViewModelFactory:Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mViewModelFactory:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;
 
     const-string v1, "bixby_settings"
 
-    invoke-interface {v0, p1, v1}, Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModelFactory;->createActionViewModel(Lcom/samsung/android/globalactions/presentation/SecGlobalActions;Ljava/lang/String;)Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModel;
+    invoke-interface {v0, p1, v1}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;->createActionViewModel(Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;Ljava/lang/String;)Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModel;
 
     move-result-object v0
 
-    invoke-interface {p1, v0}, Lcom/samsung/android/globalactions/presentation/SecGlobalActions;->addAction(Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModel;)V
+    invoke-interface {p1, v0}, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;->addAction(Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModel;)V
 
     :cond_0
     return-void
@@ -96,55 +96,55 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v2, "GlobalAtionsBixbyOnPowerKeyStrategy"
 
     const-string v3, "Force a GlobalAction to show"
 
-    invoke-virtual {v0, v2, v3}, Lcom/samsung/android/globalactions/util/LogWrapper;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v3}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     sput-boolean v1, Lcom/android/systemui/globalactions/presentation/view/SecGlobalActionsDialog;->GLOBALACTION_FORCE_SHOW:Z
 
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mGlobalActions:Lcom/samsung/android/globalactions/presentation/SecGlobalActions;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mGlobalActions:Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;
 
-    invoke-interface {v0}, Lcom/samsung/android/globalactions/presentation/SecGlobalActions;->isDeviceProvisioned()Z
+    invoke-interface {v0}, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;->isDeviceProvisioned()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-    sget-object v2, Lcom/samsung/android/globalactions/util/SystemConditions;->IS_EMERGENCY_MODE:Lcom/samsung/android/globalactions/util/SystemConditions;
+    sget-object v2, Lcom/samsung/android/globalactionsdlx/util/SystemConditions;->IS_EMERGENCY_MODE:Lcom/samsung/android/globalactionsdlx/util/SystemConditions;
 
-    invoke-interface {v0, v2}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
     sget-object v2, Lcom/android/systemui/globalactions/util/SystemUIConditions;->IS_BIXBY_PACKAGE_ENABLED:Lcom/android/systemui/globalactions/util/SystemUIConditions;
 
-    invoke-interface {v0, v2}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mSettingsWrapper:Lcom/samsung/android/globalactions/util/SettingsWrapper;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mSettingsWrapper:Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;
 
-    invoke-virtual {v0}, Lcom/samsung/android/globalactions/util/SettingsWrapper;->getCurrentBixbySettings()I
+    invoke-virtual {v0}, Lcom/samsung/android/globalactionsdlx/util/SettingsWrapper;->getCurrentBixbySettings()I
 
     move-result v0
 
     :try_start_0
-    iget-object v2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v3, "GlobalAtionsBixbyOnPowerKeyStrategy"
 
@@ -162,19 +162,19 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactions/util/LogWrapper;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v2, 0x2
 
     if-ne v0, v2, :cond_1
 
-    iget-object v2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mBixbyHandler:Lcom/samsung/android/globalactions/util/BixbyHandler;
+    iget-object v2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mBixbyHandler:Lcom/samsung/android/globalactionsdlx/util/BixbyHandler;
 
-    invoke-virtual {v2}, Lcom/samsung/android/globalactions/util/BixbyHandler;->startBixbyVoiceService()V
+    invoke-virtual {v2}, Lcom/samsung/android/globalactionsdlx/util/BixbyHandler;->startBixbyVoiceService()V
 
-    iget-object v2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mGlobalActions:Lcom/samsung/android/globalactions/presentation/SecGlobalActions;
+    iget-object v2, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mGlobalActions:Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;
 
-    invoke-interface {v2}, Lcom/samsung/android/globalactions/presentation/SecGlobalActions;->setDisabled()V
+    invoke-interface {v2}, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;->setDisabled()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -184,7 +184,7 @@
     :catch_0
     move-exception v2
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/features/BixbyOnPowerKeyStrategy;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v4, "GlobalAtionsBixbyOnPowerKeyStrategy"
 
@@ -206,7 +206,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactions/util/LogWrapper;->logDebug(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->logDebug(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
     :goto_0
