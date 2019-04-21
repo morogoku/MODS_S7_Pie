@@ -690,6 +690,10 @@
         <item>777</item>
         <item>7777</item>
         <item>7777</item>
+		<item>GrxScreenRecorder</item>
+        <item>888</item>
+        <item>8888</item>
+        <item>8888</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Off</item>
