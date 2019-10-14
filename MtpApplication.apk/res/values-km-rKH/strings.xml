@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">កម្មវិធី MTP</string>
+    <string name="alert_title">ប្រាប់</string>
+    <string name="error_title">ប្រុងប្រយ័ត្ន</string>
+    <string name="bluetooth_running">ការដំណើរការ​ទម្រង់ USB នឹង​បិទ​ដំណើរការ Bluetooth។ បន្ត?</string>
+    <string name="alert_dialog_yes">ព្រម</string>
+    <string name="alert_dialog_no">ទេ</string>
+    <string name="animation_initializing">កំពុង​ចាប់​ផ្ដើម…</string>
+    <string name="animation_connected">បាន​ភ្ជាប់។</string>
+    <string name="animation_synchronizing">កំពុង​ធ្វើ​សមកាល…</string>
+    <string name="animation_downloading">កំពុង​ទាញ​យក…</string>
+    <string name="animation_sending">ផ្ញើ…</string>
+    <string name="notification_mtp_connected">បាន​ភ្ជាប់ MTP។</string>
+    <string name="notification_usb_connected">បាន​ភ្ជាប់ USB។</string>
+    <string name="notification_mtp_initialization">ការចាប់ផ្ដើម MTP</string>
+    <string name="alert_dialog_ok">ព្រម</string>
+    <string name="alert_dialog_cancel">បោះបង់</string>
+    <string name="media_scanner_running">កម្មវិធី​ស្កេន​មេឌៀ​កំពុង​ដំណើរការ…</string>
+    <string name="media_scanner_finished">ការស្កេន​មេឌៀ​បាន​បញ្ចប់។</string>
+    <string name="kies_software_check">កំពុង​ពិនិត្យ Samsung Kies (សុហ្វវែរ​ភ្ជាប់ PC)…</string>
+    <string name="security_policy_restriction">គោលការណ៍​សន្តិសុខ​កំហិត​ការប្រើ​ការភ្ជាប់ PC។</string>
+    <string name="resume_to_call">បន្ត​ការហៅ</string>
+    <string name="store_add_popup">កម្មវិធី MTP នឹង​ចាប់ផ្ដើម​ឡើង​វិញ​ដើម្បី​រៀបចំ​កាត SD។ បន្ត?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">ការភ្ជាប់​របស់​អ្នក​ត្រូវ​បាន​ប្ដូរ​ទៅ USB 2.0 ដោយ​ស្វ័យប្រវត្តិ ពីព្រោះ​វា​អសកម្ម​ក្នុង​ពេល %d នាទី។ ដើម្បី​ប្រើ USB 3.0 សូម​បើក​ជម្រើស USB តាម​ផ្ទាំង​ជូនដំណឹង ហើយ​ជ្រើស​ឧបករណ៍​មេឌៀ (USB 3.0)។</string>
+    <string name="nousbdriver_attention_message">ឧបករណ៍​នេះ​មិន​ត្រូវ​បាន​ទទួលស្គាល់​ដោយ​កុំព្យូទ័រ​ដែល​បាន​ភ្ជាប់។ Windows XP Service Pack 3 ឬ ខ្ពស់​ជាងនេះ និង Mac OS X 10.5 ឬ ខ្ពស់​ជាងនេះ ទទួល​ការគាំទ្រ។ Windows Media Player កំណែ 10 ឬ ខ្ពស់​ជាងនេះ ត្រូវតែ​បាន​ដំឡើង ដើម្បី​ភ្ជាប់​ទៅ Microsoft Windows ឬ​ក៏ Android File Transfer ត្រូវតែ​បាន​ដំឡើង​សម្រាប់ Mac OS X។ ដើម្បី​ធ្វើ​សមកាល, ចម្លងទុក និង ស្ដារ​ទិន្នន័យ ព្រមទាំង​ដំឡើងថ្នាក់​ឧបករណ៍​របស់​អ្នក សូម​ទាញយក Samsung Smart Switch សម្រាប់ Windows ឬ Mac OS X ពី http://www.samsung.com/smartswitch។</string>
+    <string name="nousbdriver_attention_message_nokies">​រក​មិន​ឃើញមានសុហ្វវែរនៅលើ PC អ្នក ដែល​អាច​ស្គាល់​ឧបករណ៍​អ្នក។Service pack 3, Windows Media Player, កំណែ​ចាប់​ពី 11 ឡើង​ទៅ ឬ ដ្រាយវើ USB Windows XP, ឬ ការផ្ទេរ​ឯកសារ Android សម្រាប់ Mac OS ត្រូវតែ​មាន​ការ​ដំឡើង (មើល www.microsoft.com ឬ www. android.com/filetransfer)។</string>
+    <string name="do_not_show_again">កុំ​បង្ហាញ​ម្តងទៀត</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">អនុញ្ញាត​ការចូលប្រើ​ទិន្នន័យ​ឧបករណ៍</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">ការភ្ជាប់ MTP នឹង​ត្រូវ​បាន​បង្កើត ដើម្បី​ចូលប្រើ​ទិន្នន័យ​លើ​ឧបករណ៍​ដែល​បាន​ភ្ជាប់។</string>
+    <string name="TS_DENY_BUTTON_ABB2">បដិសេធ</string>
+    <string name="TS_ALLOW_BUTTON_ABB">អនុញ្ញាត</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"ឧបករណ៍​ដែល​បាន​ភ្ជាប់​មិន​អាច​ចូលប្រើ​ទិន្នន័យ​លើ​ឧបករណ៍​នេះ​ឡើយ។ ភ្ជាប់​ខ្សែ USB ឡើងវិញ ហើយ​សាកល្បង​ម្ដងទៀត។
+
+Android File Transfer ត្រូវតែ​បាន​ដំឡើង​លើ​ឧបករណ៍ Mac OS X។ ដើម្បី​ទាញយក Android File Transfer សូម​ចូលទៅ %s។"</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"ឧបករណ៍​ដែល​បាន​ភ្ជាប់​មិន​អាច​ចូលប្រើ​ទិន្នន័យ​លើ​ឧបករណ៍​នេះ​ឡើយ។ ភ្ជាប់​ខ្សែ USB ឡើងវិញ ហើយ​សាកល្បង​ម្ដងទៀត។
+
+Android File Transfer ឬ Samsung Smart Switch ត្រូវតែ​បាន​ដំឡើង​លើ​ឧបករណ៍ Mac OS X។ ដើម្បី​ទាញយក Android File Transfer សូម​ចូលទៅ %1$s ឬ ដើម្បី​ទាញយក Samsung Smart Switch សូម​ចូលទៅ %2$s។"</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">ឧបករណ៍​ដែល​បាន​ភ្ជាប់​នឹង​អាច​ចូលប្រើ​ឯកសារ​លើ​ថេប្លិត​នេះ (ការភ្ជាប់ MTP)។</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">អនុញ្ញាត​ការចូលប្រើ​ទិន្នន័យ​ទូរសព្ទ?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">អនុញ្ញាត​ការចូលប្រើ​ទិន្នន័យ​ថេប្លិត?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">ឧបករណ៍​ដែល​បាន​ភ្ជាប់​នឹង​អាច​ចូលប្រើ​ទិន្នន័យ​លើ​ទូរសព្ទ​នេះ។</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">ឧបករណ៍​ដែល​បាន​ភ្ជាប់​នឹង​អាច​ចូលប្រើ​ទិន្នន័យ​លើ​ថេប្លិត​នេះ។</string>
+    <string name="VMTP_CATEGORY_TITLE">បណ្ណាល័យ</string>
+    <string name="VTYPE_IMG">រូប</string>
+    <string name="VTYPE_AUDIO">អូឌីយ៉ូ</string>
+    <string name="VTYPE_VIDEO">វីដេអូ</string>
+    <string name="VTYPE_DOC">ឯកសារ</string>
+    <string name="VTYPE_APP">កម្មវិធី</string>
+    <string name="VTYPE_OTHER">ផ្សេងទៀត</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">រូបថត​អេក្រង់</string>
+    <string name="CAMERA">កាមេរ៉ា</string>
+    <string name="INT_MEM">ឃ្លាំងផ្ទុក​ខាងក្នុង</string>
+    <string name="EXT_MEM">កាត SD</string>
+    <string name="VMTP_SHARE_TITLE">ការចែករំលែក​ឯកសារ​ពី​ឧបករណ៍</string>
+</resources>
