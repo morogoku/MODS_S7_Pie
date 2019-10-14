@@ -18,6 +18,8 @@
 
 
 # instance fields
+.field mGrxHack:Z
+
 .field final TAG:Ljava/lang/String;
 
 .field checkBox:Landroid/widget/CheckBox;
@@ -99,6 +101,10 @@
 
     iput-object v0, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mUSBRemovalReceiver:Landroid/content/BroadcastReceiver;
 
+	const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mGrxHack:Z
+	
     return-void
 .end method
 
@@ -426,6 +432,27 @@
     invoke-virtual {p0, v0}, Lcom/samsung/android/MtpApplication/USBConnection;->requestWindowFeature(I)Z
 
     invoke-virtual {p0}, Lcom/samsung/android/MtpApplication/USBConnection;->showDiaglog()V
+	
+	
+
+	### Add ###
+    iget-boolean v0, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mGrxHack:Z
+
+    if-eqz v0, :cond_0
+
+    const-string v0, "Allow"
+
+    sput-object v0, Lcom/samsung/android/MtpApplication/USBConnection;->AllowClicked:Ljava/lang/String;
+
+    iget-object v0, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mDialog:Landroid/app/AlertDialog;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
+
+    :cond_0
+    ### Add ###	
+	
 
     return-void
 .end method
@@ -661,11 +688,11 @@
 
     const/4 v7, 0x1
 
-    if-eqz v5, :cond_5
+    ####if-eqz v5, :cond_5
 
     sput-boolean v7, Lcom/samsung/android/MtpApplication/USBConnection;->LoggingEnabled:Z
 
-    :cond_5
+    ####:cond_5
     invoke-direct {p0}, Lcom/samsung/android/MtpApplication/USBConnection;->isKnoxCustomProKioskState()Z
 
     move-result v5
@@ -1089,6 +1116,17 @@
     invoke-direct {v10, p0}, Lcom/samsung/android/MtpApplication/USBConnection$7;-><init>(Lcom/samsung/android/MtpApplication/USBConnection;)V
 
     invoke-virtual {v5, v7, v10}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+	
+	
+	### Add ###
+
+    const/4 v7, 0x1
+
+    iput-boolean v7, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mGrxHack:Z
+
+	### Add ###	
+	
+	
 
     goto/16 :goto_5
 
