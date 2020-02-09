@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/applist_root_view" android:background="#a5000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.sidescreen.applist.view.ItemListView android:scrollbarSize="50.0dip" android:scrollbarThumbVertical="@drawable/applist_scrollbar" android:scrollbarStyle="outsideOverlay" android:id="@id/applist_view" android:paddingTop="37.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+</FrameLayout>

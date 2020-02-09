@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSServiceBox android:id="@id/qs_service_box" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/qs_detail_header_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0">
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock.Big" android:textSize="@dimen/qs_extended_app_bar_text_size" android:textColor="@color/qs_detail_header_text_color" android:gravity="center_horizontal" android:id="@id/detail_header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/qs_big_time_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/qs_big_clock_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.systemui.statusbar.policy.QSClock android:textAppearance="@style/TextAppearance.StatusBar.Clock.Big" android:textSize="@dimen/status_bar_clock_big_size" android:gravity="start|center" android:id="@id/big_clock" android:tag="qs_service_box_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" systemui:wallpaperTextColor="@color/qs_servicebox_clock_color" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/qs_big_date_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.systemui.statusbar.policy.DateView android:textAppearance="@style/TextAppearance.StatusBar.Clock.Big" android:textSize="@dimen/qs_service_box_big_date_size" android:textColor="@color/qs_servicebox_date_color" android:gravity="center_vertical" android:id="@id/big_date" android:tag="qs_service_box_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" systemui:datePattern="@string/status_view_wday_day_month_no_year" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/header_buttons_container" />
+        <include layout="@layout/empty_header_buttons_container" />
+    </FrameLayout>
+</com.android.systemui.qs.QSServiceBox>

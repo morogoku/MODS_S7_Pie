@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_panel_height_for_tablet">636.0dip</dimen>
+    <dimen name="qs_detail_height">522.0dip</dimen>
+    <dimen name="qs_edit_tile_layout_margin_side">22.0dip</dimen>
+    <dimen name="qs_page_indicator_container_height">19.0dip</dimen>
+    <dimen name="qs_page_indicator_container_width">19.0dip</dimen>
+    <item type="dimen" name="qs_tile_height_tablet_ratio">6.13</item>
+    <dimen name="qs_tile_text_size">14.0sp</dimen>
+</resources>
