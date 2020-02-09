@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP એપ્લિકેશન</string>
+    <string name="alert_title">ચેતવણી</string>
+    <string name="error_title">સાવધાન</string>
+    <string name="bluetooth_running">USB મોડ સક્રિય કરવાથી બ્લ્યુટુથ નિષ્ક્રિય થઇ જશે. ચાલુ રાખીએ?</string>
+    <string name="alert_dialog_yes">હા</string>
+    <string name="alert_dialog_no">ના</string>
+    <string name="animation_initializing">શરૂ કરે છે…</string>
+    <string name="animation_connected">જોડાયું.</string>
+    <string name="animation_synchronizing">સિંક્રોનાઇઝેશનિંગ…</string>
+    <string name="animation_downloading">ડાઉનલોડિંગ…</string>
+    <string name="animation_sending">મોકલે…</string>
+    <string name="notification_mtp_connected">MTP જોડાયેલ છે.</string>
+    <string name="notification_usb_connected">USB જોડેલ છે.</string>
+    <string name="notification_mtp_initialization">MTP આરંભ</string>
+    <string name="alert_dialog_ok">ઓકે</string>
+    <string name="alert_dialog_cancel">રદ કરો</string>
+    <string name="media_scanner_running">મીડિયા સ્કેનર ચાલુ છે…</string>
+    <string name="media_scanner_finished">મીડિયા સ્કેનિંગ પૂર્ણ થયું.</string>
+    <string name="kies_software_check">Samsung Kies (PC જોડાણ સોફ્ટવેર) માટે તપાસે છે…</string>
+    <string name="security_policy_restriction">સુરક્ષા નીતિ PC જોડાણનાં ઉપયોગને પ્રતિબંધિત કરે છે.</string>
+    <string name="resume_to_call">કૉલ ફરી શરૂ કરો</string>
+    <string name="store_add_popup">SD કાર્ડને તૈયાર કરવા માટે MTP એપ્લિકેશન પુનઃપ્રારંભ થશે. ચાલુ રાખીએ?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">તમારું જોડાણ આપમેળે USB 2.0 પર બદલાઇ ગયું છે કારણકે તે %d મિનિટ સુધી નિષ્ક્રિય હતું. USB 3.0 નો ઉપયોગ કરવા, સૂચના પેનલ મારફતે USB વિકલ્પો ખોલો અને અને “મીડિયા ઉપકરણ (USB 3.0)” પસંદ કરો.</string>
+    <string name="nousbdriver_attention_message">જોડેલ કોમ્પ્યુટર દ્વારા આ ઉપકરણને ઓળખવામાં આવેલ નથી. વિન્ડોઝ XP સેવા પેક 3 અથવા તેનાથી ઉચ્ચ અને Mac OS X 10.5 અથવા તેનાથી ઉચ્ચ સંસ્કરણ સમર્થિત છે. Microsoft વિન્ડોઝથી જોડવા માટે વિન્ડોઝ મીડિયા પ્લેયર સંસ્કરણ 10 અથવા તેનાથી ઉચ્ચ ઇન્સ્ટોલ કરેલ હોવું આવશ્યક છે, Mac OS X માટે એન્ડ્રોઇડ ફાઇલ સ્થાનાંતર ઇન્સ્ટોલ કરેલું હોવું આવશ્યક છે. સિંક કરવા, બેક અપ લેવા અને ડેટા પુનઃસ્થાપિત કરવા માટે અને ઉપકરણને અપગ્રેડ કરવા માટે, http://www.samsung.com/smartswitch માંથી વિન્ડોઝ અથવા Mac OS X માટે Samsung Smart Switch ડાઉનલોડ કરો.</string>
+    <string name="nousbdriver_attention_message_nokies">તમારા PC પર તમારા ઉપકરણને ઓળખી શકે તેવા સોફ્ટવેરને શોધવામાં અસમર્થ. સેવા પેક 3, વિન્ડોઝ મીડિયા પ્લેયર, સંસ્કરણ 11 અથવા પછીનું અથવા વિન્ડોઝ XP માટે સેમસંગ USB ડ્રાઇવર, અથવા Mac OS માટે એન્ડ્રોઇડ ફાઇલ ટ્રાંસ્ફર સ્થાપિત કરેલું હોવું જોઈએ (www.microsoft.com અથવા www. android.com/filetransfer જુઓ)</string>
+    <string name="do_not_show_again">ફરીથી બતાવશો નહીં</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">ઉપકરણ ડેટાને ઍક્સેસ કરવાની મંજૂરી આપો</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">જોડેલ ઉપકરણ પરના ડેટાને ઍક્સેસ કરવા માટે એક MTP જોડાણ સ્થાપિત કરાશે.</string>
+    <string name="TS_DENY_BUTTON_ABB2">નકારો</string>
+    <string name="TS_ALLOW_BUTTON_ABB">મંજૂરી આપો</string>
+</resources>

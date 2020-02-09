@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP rakendus</string>
+    <string name="alert_title">Häire</string>
+    <string name="error_title">Tähelepanu!</string>
+    <string name="bluetooth_running">USB-režiimi aktiveerimisel desaktiveeritakse Bluetooth. Kas jätkata?</string>
+    <string name="alert_dialog_yes">Jah</string>
+    <string name="alert_dialog_no">Ei</string>
+    <string name="animation_initializing">Lähtestamine…</string>
+    <string name="animation_connected">Ühendatud.</string>
+    <string name="animation_synchronizing">Sünkroonimine…</string>
+    <string name="animation_downloading">Allalaadimine…</string>
+    <string name="animation_sending">Saatmine</string>
+    <string name="notification_mtp_connected">MTP on ühendatud.</string>
+    <string name="notification_usb_connected">USB on ühendatud.</string>
+    <string name="notification_mtp_initialization">MTP lähtestamine</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Tühista</string>
+    <string name="non_idle_toast">Arvutiühendus on saadaval ainult ooterežiimis. Sulge töötavad rakendused</string>
+    <string name="media_scanner_running">Meediumiskanner töötab…</string>
+    <string name="media_scanner_finished">Meediumi otsimine on lõpetatud.</string>
+    <string name="kies_software_check">Programmi Samsung Kies (arvutiühenduse tarkvara) kontrollimine…</string>
+    <string name="security_policy_restriction">Turvalisuse poliis ei lase kasutada arvutiühendust.</string>
+    <string name="resume_to_call">Jätka kõnet</string>
+    <string name="store_add_popup">MTP rakendus taaskäivitub, et valmistada ette SD-kaarti. Kas jätkata?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">Teie ühenduseks on automaatselt muudetud USB 2.0, kuna see on olnud %d minutit passiivne. USB 3.0 ühenduse kasutamiseks avage teavituste paneeli kaudu USB-valikud ja valige Meediumiseade (USB 3.0).</string>
+    <string name="nousbdriver_attention_message">Ühendatud arvuti ei tuvastanud seda seadet. Toetatud on Windows XP SP3 või uuem ja Mac OS X 10.5 või uuem. Microsoft Windowsiga ühendamiseks peab olema installitud Windows Media Player 10 või uuem või Mac OS X-i puhul Androidi failiedastuse rakendus. Andmete sünkroonimiseks, varundamiseks ja taastamiseks, samuti oma seadme uuendamiseks laadige alla Samsung Smart Switch operatsioonisüsteemile Windows või Mac OS X aadressilt http://www.samsung.com/smartswitch.</string>
+    <string name="nousbdriver_attention_message_nokies">Arvutist ei leita tarkvara, mis suudaks tuvastada teie seadme. Windows XP jaoks peab olema installitud hoolduspakett 3, Windowsi meediumipleieri versioon 11 või uuem või Samsung USB Driver ning Mac OS-i jaoks Androidi failiedastus (vt www.microsoft.com või www.android.com/filetransfer).</string>
+    <string name="do_not_show_again">Ära enam kuva</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">Juurdepääsu lubamine seadme andmetele</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">Ühendatud seadme andmetele ligipääsemiseks luuakse MTP-ühendus.</string>
+    <string name="TS_DENY_BUTTON_ABB2">Keeldu</string>
+    <string name="TS_ALLOW_BUTTON_ABB">Luba</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"Ühendatud seadmel puudub juurdepääs selle seadme andmetele. Taasühendage USB-kaabel ja proovige uuesti.
+
+Mac OS X-iga seadmetes peab olema installitud Android File Transfer. Rakenduse Android File Transfer allalaadimiseks avage %s."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"Ühendatud seadmel puudub juurdepääs selle seadme andmetele. Taasühendage USB-kaabel ja proovige uuesti.
+
+Mac OS X-iga seadmetes peab olema installitud Android File Transfer või Samsung Smart Switch. Rakenduse Android File Transfer allalaadimiseks avage %1$s, rakenduse Samsung Smart Switch allalaadimiseks avage %2$s."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">Ühendatud seade saab juurdepääsu selles tahvelseadmes olevatele failidele (MTP-ühendus).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">Kas lubada juurdepääs telefoni andmetele?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">Kas lub. juurdep. tahvelarvuti andmetele?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">Ühendatud seade pääseb juurde selles telefonis olevatele andmetele.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">Ühendatud seade pääseb juurde selles tahvelarvutis olevatele andmetele.</string>
+    <string name="VMTP_CATEGORY_TITLE">Teek</string>
+    <string name="VTYPE_IMG">Pildid</string>
+    <string name="VTYPE_AUDIO">Heli</string>
+    <string name="VTYPE_VIDEO">Videod</string>
+    <string name="VTYPE_DOC">Dokumendid</string>
+    <string name="VTYPE_APP">Rakendused</string>
+    <string name="VTYPE_OTHER">Muu</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">Ekraanipildid</string>
+    <string name="CAMERA">Kaamera</string>
+    <string name="INT_MEM">Sisemälu</string>
+    <string name="EXT_MEM">SD-kaart</string>
+    <string name="VMTP_SHARE_TITLE">Faili jagamine seadmest</string>
+</resources>

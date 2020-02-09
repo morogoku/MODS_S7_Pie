@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Праграма MTP</string>
+    <string name="alert_title">Абвестка</string>
+    <string name="error_title">Увага</string>
+    <string name="bluetooth_running">Актывацыя рэжыму USB адключыць Bluetooth. Працягнуць?</string>
+    <string name="alert_dialog_yes">Так</string>
+    <string name="alert_dialog_no">Не</string>
+    <string name="animation_initializing">Ініцыялізацыя…</string>
+    <string name="animation_connected">Падлучана.</string>
+    <string name="animation_synchronizing">Ідзе сінхранізацыя…</string>
+    <string name="animation_downloading">Спампоўванне…</string>
+    <string name="animation_sending">Адсылка…</string>
+    <string name="notification_mtp_connected">MTP падлучана.</string>
+    <string name="notification_usb_connected">USB падлучана.</string>
+    <string name="notification_mtp_initialization">Ініцыялізацыя MTP</string>
+    <string name="alert_dialog_ok">ОК</string>
+    <string name="alert_dialog_cancel">Скасав.</string>
+    <string name="media_scanner_running">Працуе сканер мультымедыя…</string>
+    <string name="media_scanner_finished">Завершана сканіраванне медыяфайлаў.</string>
+    <string name="kies_software_check">Праверка Samsung Kies (праграмнае забеспячэнне для злучэння ПК)…</string>
+    <string name="security_policy_restriction">Палітыка бяспекі абмяжоўвае выкарыстанне гэтага злучэння ПК.</string>
+    <string name="resume_to_call">Узнавіць выклік</string>
+    <string name="store_add_popup">Праграма MTP перазапусціцца, каб падрыхтаваць SD-карту. Працягнуць?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">Ваша злучэнне было аўтаматычна зменена на USB 2.0 таму што яно было неактыўным на працягу %d хвілін. Каб выкарыстоўваць USB 3.0, адкрыйце параметры USB праз панэль апавяшчэнняў і выберыце медыяпрыладу (USB 3.0).</string>
+    <string name="nousbdriver_attention_message">Гэта прылада не была распазнана падлучаным камп’ютарам. Падтрымліваюцца Windows XP Service Pack 3 ці пазнейшая версія або Mac OS X 10.5 ці пазнейшая версія. Каб падлучыцца да Microsoft Windows, трэба ўсталяваць Windows Media Player версіі 10 або пазнейшай, а для Mac OS X трэба ўсталяваць праграма пераносу файлаў Android. Каб сінхранізаваць, рабіць рэзервовыя копіі і аднаўляць даныя, а таксама абнаўляць прыладу, спампуйце Samsung Smart Switch для Windows або Mac OS X з http://www.samsung.com/smartswitch.</string>
+    <string name="nousbdriver_attention_message_nokies">Немагчыма знайсці на вашым ПК праграмнае забеспячэнне, якое можа распазнаць вашу прыладу. Павінен быць усталяваны пакет абнаўленняў 3, Медыяпрайгравальнік Windows версіі 11 або вышэй, або драйвер Samsung USB для Windows XP, або перадача файлаў Android для Mac OS (глядзіце www.microsoft.com або www.android.com/filetransfer).</string>
+    <string name="do_not_show_again">Больш не паказваць</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">Дазволіць доступ да даных прылады</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">Каб атрымаць доступ да даных на падлучанай прыладзе, будзе устаноўлена падлучэнне MTP.</string>
+    <string name="TS_DENY_BUTTON_ABB2">Адхіліць</string>
+    <string name="TS_ALLOW_BUTTON_ABB">Дазволіць</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"Падлучаная прылада не можа атрымаць доступ да даных на гэтай прыладзе. Паўторна падлучыце кабель USB і паўтарыце спробу.
+
+Android File Transfer павінны быць усталяваны на прыладах Mac OS X. Каб спампаваць Android File Transfer, перайдзіце да %s."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"Падлучаная прылада не можа атрымаць доступ да даных на гэтай прыладзе. Паўторна падлучыце кабель USB і паўтарыце спробу.
+
+Android File Transfer або Samsung Smart Switch павінны быць усталяваны на прыладах Mac OS X. Каб спампаваць Android File Transfer, перайдзіце да %1$s, а каб спампаваць Samsung Smart Switch, перайдзіце да %2$s."</string>
+</resources>

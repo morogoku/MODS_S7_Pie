@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP aplikacija</string>
+    <string name="alert_title">Upozorenje</string>
+    <string name="error_title">Pažnja</string>
+    <string name="bluetooth_running">Aktiviranje USB uređaja će isključiti Bluetooth. Nastaviti?</string>
+    <string name="alert_dialog_yes">Da</string>
+    <string name="alert_dialog_no">Ne</string>
+    <string name="animation_initializing">Inicijalizacija…</string>
+    <string name="animation_connected">Povezano.</string>
+    <string name="animation_synchronizing">Sinhronizacija…</string>
+    <string name="animation_sending">Slanje…</string>
+    <string name="notification_mtp_connected">MTP je priključen.</string>
+    <string name="notification_mtp_initialization">Inicijalizacija opcije MTP</string>
+    <string name="alert_dialog_cancel">Otkaži</string>
+    <string name="media_scanner_running">Skeniranje medija je u toku…</string>
+    <string name="media_scanner_finished">Skeniranje medija je završeno.</string>
+    <string name="kies_software_check">Traži se Samsung Kies (softver za vezu sa PC računarom)…</string>
+    <string name="security_policy_restriction">Pravila sigurnosti sprječavaju korištenje veze s računarom.</string>
+    <string name="resume_to_call">Nastavi poziv</string>
+    <string name="store_add_popup">MTP aplikacija će se ponovno pokrenuti radi pripreme SD kartice. Nastaviti?</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">Veza je automatski promijenjena na USB 2.0 jer je bila neaktivna %d minuta. Da biste koristili USB 3.0, otvorite USB opcije putem table obavještenja i izaberite medijski uređaj (USB 3.0).</string>
+    <string name="nousbdriver_attention_message">Povezani računar nije prepoznao ovaj uređaj. Servisni paket 3 za Windows XP ili noviji i Mac OS X 10.5 ili noviji su podržani. Windows Media Player verzija 10 ili novija mora biti instalirana za povezivanje sa sistemom Microsoft Windows ili Android prenos fajlova za Mac OS X. Za sinhronizaciju, kreiranje sigurnosne kopije, obnavljanje podataka i nadogradnju uređaja, preuzmite Samsung Smart Switch za Windows ili Mac OS X sa adrese http://www.samsung.com/smartswitch.</string>
+    <string name="nousbdriver_attention_message_nokies">Nije moguće pronaći softver na vašem računaru koji može prepoznati vaš uređaj. Mora biti instaliran servisni paket 3 Windows Media Player, verzija 11 ili novija, ili Samsung USB pogon za Windows XP, ili prenos Android datoteke za Mac OS (pogledaj www.microsoft.com ili www.android.com/filetransfer).</string>
+    <string name="do_not_show_again">Ne prikazuj ponovno</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">Dozvolite pristup podacima uređaja</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">Uspostavit će se MTP veza za pristup podacima na povezanom uređaju.</string>
+    <string name="TS_DENY_BUTTON_ABB2">Odbij</string>
+    <string name="TS_ALLOW_BUTTON_ABB">Dozvoli</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"Povezani uređaj ne može pristupiti podacima na ovom uređaju. Ponovno priključite USB kabl i pokušajte ponovno.
+
+Aplikacija Android File Transfer mora biti instalirana na Mac OS X uređajima. Da biste preuzeli aplikaciju Android File Transfer, idite na %s."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"Povezani uređaj ne može pristupiti podacima na ovom uređaju. Ponovno priključite USB kabl i pokušajte ponovno.
+
+Aplikacija Android File Transfer ili Samsung Smart Switch mora biti instalirana na Mac OS X uređajima. Da biste preuzeli aplikaciju Android File Transfer, idite na %1$s, ili da biste preuzeli aplikaciju Samsung Smart Switch, idite na %2$s."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">Povezani uređaj će moći pristupati datotekama na ovom tabletu (MTP veza).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">Dozvoliti pristup podacima telefona?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">Dozvoliti pristup podacima tableta?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">Povezani uređaj će moći pristupati podacima s ovog telefona.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">Povezani uređaj će moći pristupati podacima s ovog tableta.</string>
+    <string name="VMTP_CATEGORY_TITLE">Biblioteka</string>
+    <string name="VTYPE_IMG">Slike</string>
+    <string name="VTYPE_AUDIO">Zvuk</string>
+    <string name="VTYPE_VIDEO">Videozapisi</string>
+    <string name="VTYPE_DOC">Dokumenta</string>
+    <string name="VTYPE_APP">Aplikacije</string>
+    <string name="VTYPE_OTHER">Drugo</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">Snimci ekrana</string>
+    <string name="CAMERA">Kamera</string>
+    <string name="INT_MEM">Unutrašnja pohrana</string>
+    <string name="EXT_MEM">SD kartica</string>
+    <string name="VMTP_SHARE_TITLE">Dijeljenje datoteka s uređaja</string>
+</resources>

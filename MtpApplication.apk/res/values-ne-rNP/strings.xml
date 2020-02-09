@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP अनुप्रयोग</string>
+    <string name="alert_title">होशियार</string>
+    <string name="error_title">ध्‍यान दिनुहोस्</string>
+    <string name="bluetooth_running">USB प्रणालीलाई सक्रिय पार्नाले ब्लुटूथ असक्रिय हुनेछ। जारी राखूँ?</string>
+    <string name="alert_dialog_yes">हो</string>
+    <string name="alert_dialog_no">होइन</string>
+    <string name="animation_initializing">चालू गरिँदै छ…</string>
+    <string name="animation_connected">जोड्यो।</string>
+    <string name="animation_synchronizing">समक्रमित गर्दै छ…</string>
+    <string name="animation_sending">पठाउँदै छ…</string>
+    <string name="notification_mtp_connected">MTP जोडियो।</string>
+    <string name="notification_mtp_initialization">MTP शुरू गरियो</string>
+    <string name="alert_dialog_cancel">रद्द</string>
+    <string name="media_scanner_running">मीडिया स्क्यानर चलिरहेको छ…</string>
+    <string name="media_scanner_finished">मीडिया स्क्यान पूरा भयो।</string>
+    <string name="kies_software_check">Samsung Kies (PC जडान सफ्टवेयर) को जाँच गरिँदैछ…</string>
+    <string name="security_policy_restriction">सुरक्षा नीतिले कम्प्युटरमा जडान गर्नबाट रोक्छ।</string>
+    <string name="resume_to_call">कल फेरि सुरु गर</string>
+    <string name="store_add_popup">MTP अनुप्रयोग ले SD कार्ड बनाउन सुरु गर्नेछ। जारी राख्ने?</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">तपाईको कनेक्शन स्वचालित रूपमा USB 2.0 मा परिवर्तन भएको छ, किनकि यो %d मिनटसम्म निष्क्रिय थियो। USB 3.0 प्रयोग गर्न, सूचना प्‍यानल मार्फत USB विकल्पहरू खोल्नुहोस् र “मिडिया यन्त्र” (USB 3.0) चयन गर्नुहोस्।</string>
+    <string name="nousbdriver_attention_message">जडान गरिएको कम्‍प्‍युटर द्वारा यो यन्‍त्र पत्ता लगाइएको छैन। Windows XP सेवा प्‍याक 3 वा उच्च संस्करण र Mac OS X 10.5 वा उच्च संस्करण समर्थित छन्। Microsoft Windows मा जडान गर्न Windows Media Player संस्करण 10 वा उच्च संस्करण स्थापना गरिएको हुनुपर्छ, वा Mac OS X को लागि एन्ड्रोइड फाइल स्थानान्तरण स्‍थपना गरिएको हुनुपर्छ। डाटा सिंक गर्न, ब्‍याक अप गर्न र पुनः भण्डारण गर्न, र तपाईको यन्त्र अपग्रेड गर्न Windows वा Mac OS X को लागि http://www.samsung.com/smartswitch बाट Samsung Smart Switch डाउनलोड गर्नुहोस्।</string>
+    <string name="nousbdriver_attention_message_nokies">तपाईको यन्त्रलाई पहिचान गर्न सक्ने तपाईको PC को लागि सफ्टवेयर पत्ता लगाउन सकिएन। सर्भिस प्याक 3, विंडोज मिडिया प्लेयर, संस्करण 11 वा माथिको, वा विंडो XP को लागि सैमसंग USB ड्राइभर, वा म्याक OS को लागि अन्ड्रोइड फाइल ट्रान्स्फर स्थापना गरिएको हुनुपर्छ (www.microsoft.com वा www. android.com/filetransfer हेर्नुहोस्)।</string>
+    <string name="do_not_show_again">फेरि नदेखाउनुहोस्</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">यन्त्र डाटामा पहुँचलाई अनुमति दिनुहोस्</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">जडान गरिएको यन्त्रमा डाटा पहुँच गर्न एउटा MTP जडान स्थापित गरिनेछ।</string>
+    <string name="TS_DENY_BUTTON_ABB2">अस्वीकार</string>
+    <string name="TS_ALLOW_BUTTON_ABB">अनुमति दिनुहोस्</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"जडान गरिएको यन्त्र यस यन्त्रको डाटामा पहुँच गर्न असमर्थ छ। USB केबल पुनः जडान गरेर फेरि प्रयास गर्नुहोस्।
+
+Mac OS X यन्त्रहरूमा एन्ड्रोइड फाइल स्थानान्तरण स्थापना गरिएको हुनुपर्छ। एन्ड्रोइड फाइल स्थानान्तरण डाउनलोड गर्न, %s मा जानुहोस्।"</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"जडान गरिएको यन्त्र यस यन्त्रको डाटामा पहुँच गर्न असमर्थ छ। USB केबल पुनः जडान गरेर फेरि प्रयास गर्नुहोस्।
+
+Mac OS X यन्त्रहरूमा एन्ड्रोइड फाइल स्थानान्तरण वा Samsung Smart Switch स्थापना गरिएको हुनुपर्छ। एन्ड्रोइड फाइल स्थानान्तरण डाउनलोड गर्न, %1$s मा जानुहोस्, वा Samsung Smart Switch डाउनलोड गर्न, %2$s मा जानुहोस्।"</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">जडान गरिएको यन्त्रले यस ट्याबलेटका फाइलहरूमा पहुँच गर्न सक्ने छ (MTP जडान)।</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">फोनको डाटामा पहुँच गर्ने अनुमति दिने हो?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">ट्याबलेटको डाटामा पहुँच गर्ने अनुमति दिने हो?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">जडान गरिएको यन्त्र यस फोनको डाटामा पहुँच गर्न सक्ने छ।</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">जडान गरिएको यन्त्रले यस ट्याबलेटमा रहेको डाटामा पहुँच गर्न सक्ने छ।</string>
+    <string name="VMTP_CATEGORY_TITLE">लाइब्रेरी</string>
+    <string name="VTYPE_IMG">छविहरू</string>
+    <string name="VTYPE_AUDIO">अडियो</string>
+    <string name="VTYPE_VIDEO">भिडियोहरू</string>
+    <string name="VTYPE_DOC">कागजातहरू</string>
+    <string name="VTYPE_APP">अनुप्रयोगहरू</string>
+    <string name="VTYPE_OTHER">अन्य</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">स्क्रीनशटहरू</string>
+    <string name="CAMERA">क्यामेरा</string>
+    <string name="INT_MEM">आन्तरिक भण्डारण</string>
+    <string name="EXT_MEM">SD कार्ड</string>
+    <string name="VMTP_SHARE_TITLE">यन्त्रबाट फाइल साझा गर्ने</string>
+</resources>

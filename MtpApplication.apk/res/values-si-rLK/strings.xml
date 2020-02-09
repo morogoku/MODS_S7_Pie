@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP යෙදුම</string>
+    <string name="alert_title">දැනුම්දීම</string>
+    <string name="error_title">අවධානය යොමු කරන්න</string>
+    <string name="bluetooth_running">USB ප්‍රකාරය සක්‍රිය කිරීම බ්ලූටූත් අක්‍රිය කරයි. පවත්වාගෙන යන්නද?</string>
+    <string name="alert_dialog_yes">ඔව්</string>
+    <string name="alert_dialog_no">නැත</string>
+    <string name="animation_initializing">සැකසෙමින්…</string>
+    <string name="animation_connected">සම්බන්ධ විය.</string>
+    <string name="animation_synchronizing">සමමුහුර්ත කරමින්…</string>
+    <string name="animation_sending">යවමින්…</string>
+    <string name="notification_mtp_connected">MTP සම්බන්ධ කෙරිණ.</string>
+    <string name="notification_mtp_initialization">MTP ආරම්භ කිරීම</string>
+    <string name="alert_dialog_cancel">අවල. කර.</string>
+    <string name="media_scanner_running">මාධ්‍ය පිරික්සනය ධාවනය වෙමින්…</string>
+    <string name="media_scanner_finished">මාධ්‍ය පිරික්සුම සම්පූර්ණයි.</string>
+    <string name="kies_software_check">Samsung Kies (PC සබඳතා මෘදුකාංගය) පිරික්සමින්…</string>
+    <string name="security_policy_restriction">ආරක්ෂක ප්‍රතිපත්තිය පරිගණක සබැඳුම භාවිතය වළකයි.</string>
+    <string name="resume_to_call">ඇමතුම ඉදිරියට ගෙනයන්න</string>
+    <string name="store_add_popup">SD කාඩ්පත සූදානම් කිරීම සඳහා MTP යෙදුම යලි පණගන්වන්න. පවත්වාගෙන යන්නද?</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">එය මිනිත්තු %d ට අක්‍රිය වී ඇති නිසා ඔබගේ සබඳතාවය USB 2.0 වෙත ස්වයංක්‍රියව වෙනස් වී ඇත. USB 3.0 භාවිතා කිරීමට, දැනුම්දීමේ පුවරුව හරහා USB විකල්ප විවෘත කර “මාධ්‍ය උපාංගය (USB 3.0)” තෝරන්න.</string>
+    <string name="nousbdriver_attention_message">සබැඳුණු පරිගණකය විසින් මෙම උපාංගය හඳුනාගෙන් නොමැත. වින්ඩෝස් XP සේවා ඇහුරුම 3 හෝ ඊට වැඩි හා Mac OS X 10.5 හෝ ඊට වැඩි ඒවා සහාය දක්වයි. Microsoft වින්ඩෝස් වෙත සම්බන්ධ වීමට වින්ඩෝස් මාධ්‍ය ධාවකය අනුවාදය 10 හෝ ඊට වැඩි එකක් ස්ථාපනය කළ යුතුය, නැතහොත් Mac OS X සඳහා ඇන්ඩ්‍රොයිඩ් ගොනු මාරුව ස්ථාපනය කළ යුතුය. සමමුහු, උපස්ථ, සහ දත්ත ප්‍රතිසාධනය කිරීමට, හා ඔබේ උපාංගය උත්ශ්‍රේණි කිරීමට, http://www.samsung.com/smartswitch වෙතින් වින්ඩෝස් හෝ Mac OS X සඳහා සැම්සුං Smart Switch බාගන්න.</string>
+    <string name="nousbdriver_attention_message_nokies">ඔබේ උපාංගය හඳුනාගත හැකි ඔබේ පරිගණකයේ මෘදුකාංගය සෙවීමට නොහැක. සර්විස් පැක් 3, වින්ඩෝස් මීඩියා ප්ලේයර්, අනුවාදය 11 හෝ ඊට වඩා ඉහළ අනුවාදයක්, වින්ඩෝස් XP සඳහා සැම්සුං USB ඩ්‍රයිවර්, හෝ OS සඳහා ඇන්ඩ්‍රොයිඩ් ගොනු හුවමාරුව ස්ථාපිත කළ යුතුය (www.microsoft.com or www.android.com/filetransfer බලන්න).</string>
+    <string name="do_not_show_again">නැවත නොපෙන්වන්න</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">උපාංගයේ දත්ත වෙත ප්‍රවේශයට ඉඩ දීම</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">සම්බන්ධිත උපාංගය මත දත්ත වෙත ප්‍රවේශය සඳහා MTP සබැඳුමක් ස්ථාපිත කරනු ඇත.</string>
+    <string name="TS_DENY_BUTTON_ABB2">ප්‍රති. ක.</string>
+    <string name="TS_ALLOW_BUTTON_ABB">ඉඩ දෙන්න</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"සම්බන්ධිත උපාංගයට මෙම උපාංගයෙහි දත්ත වෙත ප්‍රවේශ විය නොහැකිය. USB රැහැන යළි සම්බන්ධ කර නැවත උත්සාහ කරන්න.
+
+Android File Transfer Mac OS X උපාංගවල ස්ථාපිත කළ යුතුය. Android File Transfer බාගැනීමට, %s වෙත යන්න."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"සම්බන්ධිත උපාංගයට මෙම උපාංගයෙහි දත්ත වෙත ප්‍රවේශ විය නොහැකිය. USB රැහැන යළි සම්බන්ධ කර නැවත උත්සාහ කරන්න.
+
+Android File Transfer සැම්සුං Smart Switch Mac OS X උපාංගවල ස්ථාපිත කළ යුතුය. Android File Transfer බාගැනීමට, %1$s වෙත යන්න, හෝ සැම්සුං Smart Switch බාගැනීමට, %2$s වෙත යන්න."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">සම්බන්ධිත උපාංගයට මෙම ටැබ්ලටය මත ගොනුවලට ප්‍රවේශ විය හැකි වනු ඇත (MTP සබැඳුම).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">දුරකථනයේ දත්ත වෙත ප්‍රවේශයට ඉඩ දෙන්න ද?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">ටැබ්ලටයේ දත්ත වෙත ප්‍රවේශයට ඉඩ දෙන්න ද?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">සම්බන්ධිත උපාංගයට මෙම දුරකථනයෙහි දත්ත වෙත ප්‍රවේශ විය හැකිය.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">සම්බන්ධිත උපාංගයට මෙම ටැබ්ලටයෙහි දත්ත වෙත ප්‍රවේශ විය හැකිය.</string>
+    <string name="VMTP_CATEGORY_TITLE">පුස්තකාලය</string>
+    <string name="VTYPE_IMG">අනුරූ</string>
+    <string name="VTYPE_AUDIO">ශ්‍රව්‍ය</string>
+    <string name="VTYPE_VIDEO">වීඩියෝ</string>
+    <string name="VTYPE_DOC">ලේඛන</string>
+    <string name="VTYPE_APP">යෙදුම්</string>
+    <string name="VTYPE_OTHER">වෙනත්</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">තිර දසුන්කඩවල්</string>
+    <string name="CAMERA">කැමරාව</string>
+    <string name="INT_MEM">අභ්‍යන්තර ගබඩාව</string>
+    <string name="EXT_MEM">SD කාඩ්පත</string>
+    <string name="VMTP_SHARE_TITLE">උපාංගයෙන් ගොනු බෙදා ගැනීම</string>
+</resources>

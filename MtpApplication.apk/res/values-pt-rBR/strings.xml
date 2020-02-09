@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicação MTP</string>
+    <string name="alert_title">Alerta</string>
+    <string name="error_title">Atenção</string>
+    <string name="bluetooth_running">Ao ativar o modo USB irá desativar o Bluetooth. Continuar?</string>
+    <string name="alert_dialog_yes">Sim</string>
+    <string name="alert_dialog_no">Não</string>
+    <string name="animation_initializing">Inicializando…</string>
+    <string name="animation_connected">Conectado.</string>
+    <string name="animation_synchronizing">Sincronizando…</string>
+    <string name="animation_downloading">Baixando…</string>
+    <string name="animation_sending">Enviando…</string>
+    <string name="notification_mtp_connected">MTP conectada.</string>
+    <string name="notification_usb_connected">USB conectado.</string>
+    <string name="notification_mtp_initialization">Inicialização MTP</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="non_idle_toast">Conexão ao PC apenas disponível na tela de Espera. Feche todas as aplicações em execução</string>
+    <string name="media_scanner_running">Pesquisando mídia…</string>
+    <string name="media_scanner_finished">Pesquisa de mídia concluída.</string>
+    <string name="kies_software_check">Verificando Samsung Kies (software de conexão ao PC)…</string>
+    <string name="security_policy_restriction">A política de segurança impede o uso da conexão do computador.</string>
+    <string name="resume_to_call">Recuperar chamada</string>
+    <string name="store_add_popup">A aplicação MTP será reiniciada para preparar cartão SD. Continuar?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">Conexão USB 3.0</string>
+    <string name="usb_switch_notification">Sua conexão foi alterada automaticamente para USB 2.0 porque ela estava inativa por %d minutos. Para usar o USB 3.0, abra as opções de USB no painel de notificações e selecione dispositivo de mídia (USB 3.0).</string>
+    <string name="nousbdriver_attention_message">Este aparelho não foi reconhecido pelo computador conectado. O Windows XP Service Pack 3 ou superior e o Mac OS X 10.5 ou superior são suportados. O Windows Media Player versão 10 ou superior deve estar instalado para conectar-se ao Microsoft Windows ou a Transferência de arquivo Android deve estar instalada para o Mac OS X. Para sincronizar, fazer backup e restaurar dados, e para atualizar seu aparelho, baixe o Samsung Smart Switch para Windows ou Mac OS X em http://www.samsung.com/smartswitch.</string>
+    <string name="nousbdriver_attention_message_nokies">Não é possível encontrar o software no seu PC que reconheça seu dispositivo. O Service pack 3 do Windows Media Player, versão 11 ou superior, ou o Driver USB da Samsung para o Windows XP ou a transferência de arquivo do Android para Mac OS deve ser instalada(consultar www.microsoft.com ou www. android.com/filetransfer).</string>
+    <string name="do_not_show_again">Não exibir novamente</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">Permitir acesso aos dados do aparelho</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">Uma conexão MTP será estabelecida para acessar os dados no aparelho conectado.</string>
+    <string name="TS_DENY_BUTTON_ABB2">Recusar</string>
+    <string name="TS_ALLOW_BUTTON_ABB">Permitir</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"O aparelho conectado não pode acessar dados neste aparelho. Reconecte o cabo USB e tente novamente.
+
+O Android File Transfer deve estar instalado nos aparelhos Mac OS X. Para baixar o Android File Transfer, vá para %s."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"O aparelho conectado não pode acessar dados neste aparelho. Reconecte o cabo USB e tente novamente.
+
+O Android File Transfer ou o Samsung Smart Switch deve estar instalado nos aparelhos Mac OS X. Para baixar o Android File Transfer, vá para %1$s ou, para baixar o Samsung Smart Switch, vá para %2$s."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Permitir acesso aos seus dados</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">O aparelho conectado poderá acessar os arquivos neste telefone (conexão MTP).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">O aparelho conectado poderá acessar os arquivos neste tablet (conexão MTP).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Outras opções de USB</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">Permitir acesso aos dados do telefone?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">Permitir acesso aos dados do tablet?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">O aparelho conectado poderá acessar dados neste telefone.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">O aparelho conectado poderá acessar dados neste tablet.</string>
+    <string name="VMTP_CATEGORY_TITLE">Biblioteca</string>
+    <string name="VTYPE_IMG">Imagens</string>
+    <string name="VTYPE_AUDIO">Áudio</string>
+    <string name="VTYPE_VIDEO">Vídeos</string>
+    <string name="VTYPE_DOC">Documentos</string>
+    <string name="VTYPE_APP">Aplicativos</string>
+    <string name="VTYPE_OTHER">Outro</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">Telas capturadas</string>
+    <string name="CAMERA">Câmera</string>
+    <string name="INT_MEM">Armazenamento interno</string>
+    <string name="EXT_MEM">Cartão de memória</string>
+    <string name="VMTP_SHARE_TITLE">Compartilhamento de arquivos do aparelho</string>
+</resources>

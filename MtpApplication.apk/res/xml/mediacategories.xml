@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories name="VMTP_CATEGORY_TITLE">
+    <category name="VTYPE_IMG" mediatype="0x1" level="0x2" path="/storage/emulated/0/Pictures" filter="image(.*)">
+        <item title="WEIXIN" type="int" path="/storage/emulated/0/tencent/MicroMsg/WeiXin" />
+        <item title="INT_DCIM" type="int" path="/storage/emulated/0/DCIM/Camera" />
+        <item title="SCREENSHOT" type="int" path="/storage/emulated/0/DCIM/Screenshots" />
+        <item title="EXT_DCIM" type="ext" path="/DCIM/Camera" />
+    </category>
+    <category name="VTYPE_AUDIO" mediatype="0x2" level="0x1" path="/storage/emulated/0/Music" filter="audio(.*)" />
+    <category name="VTYPE_VIDEO" mediatype="0x3" level="0x1" path="/storage/emulated/0/Movies" filter="video(.*)" />
+    <category name="VTYPE_APP" mediatype="0x4" level="0x1" path="/storage/emulated/0/Download" filter="application(.*),((?!pdf).)*,((?!msword).)*,((?!vnd.ms-excel).)*,((?!ms-powerpoint).)*,((?!document).)*" />
+    <category name="VTYPE_DOC" mediatype="0x5" level="0x1" path="/storage/emulated/0/Documents" filter="text(.*)|application/pdf|application/msword|application/vnd.ms-excel|application/vnd.ms-powerpoint|(.*)document(.*)" />
+</categories>

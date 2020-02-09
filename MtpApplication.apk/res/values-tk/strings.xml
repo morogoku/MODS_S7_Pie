@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP gollanmasy</string>
+    <string name="alert_title">Duýduryş</string>
+    <string name="error_title">Üns beriň</string>
+    <string name="bluetooth_running">USB režimiň aktiwirlemegi Blütuzyň deaktiwirlemegine getirer. Dowam etmeli?</string>
+    <string name="alert_dialog_yes">Hawa</string>
+    <string name="alert_dialog_no">Ýok</string>
+    <string name="animation_initializing">Başladylýar…</string>
+    <string name="animation_connected">Baglanyşdy.</string>
+    <string name="animation_synchronizing">Sinhronlanýar…</string>
+    <string name="animation_downloading">Göçürilip alynýar…</string>
+    <string name="animation_sending">Iberilýär…</string>
+    <string name="notification_mtp_connected">MTP baglandy</string>
+    <string name="notification_usb_connected">USB baglandy</string>
+    <string name="notification_mtp_initialization">MTP başladylýar</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Ýatyr</string>
+    <string name="media_scanner_running">Media barlag işläp dur…</string>
+    <string name="media_scanner_finished">Media barlag tamamlandy</string>
+    <string name="kies_software_check">Samsung Kies-leri (Kompýuter sepleşdirme soft) şu wagt barlap dur…</string>
+    <string name="security_policy_restriction">Howpsuzlyk syýasaty kompýuter birikmesiniň ulanylyşyna ýol bermeýär.</string>
+    <string name="resume_to_call">Täzeden jaň et</string>
+    <string name="store_add_popup">MTP gollanmasy SD kartany taýýarlamak üçin täzeden işe giriziler. Dowam etmelimi?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">%d minudyň dowamynda işlenilmändigi sebäpli, siziň birikmäňiz awtomatik usulda USB 2.0-ä çalşyryldy. USB 3.0 -i ulanmak üçin, duýduruşlar panelinden USB saýlaw amallaryny açyň we media enjamyny saýlaň (USB 3.0).</string>
+    <string name="nousbdriver_attention_message">Bu enjamy birigen kompýuter tanamady. Windows XP serwis paketi 3 ýa-da ýokarsy we Mac OU X 10.5 ýa-da ýokarsy goldanylýar. Microsoft Windows-a birikmek üçin, Windows Media-pleýer wersiýa 10 ýa-da ýokarsyny gurnamaly, ýa-da Mac OU X üçin Android Faýl geçirişi gurnamaly. Maglumaty sinhronlamak, ätiýaçlamak we dikeltmek, enjamyňyzy beýgeltmek üçin, http://www.samsung.com/smartswitch salgydan Windows ýa-da Mac OU X üçin Samsung Smart Switch göçürip alyň.</string>
+    <string name="nousbdriver_attention_message_nokies">Enjamyňyzy anyklar ýaly siziň şahsy kompýuteriňizde software tapyp bolanok. Service pack 3, Windows Media oýnadyryjy, 11 görnüşli ýa-da has ýokaryrak ýa-da Windows XP üçin Samsung USB Driver , ýa-da Android faýl çalşygy üçin Mac OS oturdylmaly (gör www.microsoft.com or www. android.com/filetransfer).</string>
+    <string name="do_not_show_again">Gaýtadan görkezme</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">Enjam maglumatyna girmäge rugsat ber</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">Birigen enjamdaky maglumata girmek üçin, MTP birikmesi gurlar.</string>
+    <string name="TS_DENY_BUTTON_ABB2">Ret</string>
+    <string name="TS_ALLOW_BUTTON_ABB">Rugsat ber</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"Birigen enjam bu enjamdaky maglumata girip bilmeýär. USB kabeli täzeden dakyp synanyşyň.
+
+Mac OS X enjamlarynda Android File Transfer gurnamaly. Android File Transfer göçürip almak üçin, %s baryň."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"Birigen enjam bu enjamdaky maglumata girip bilmeýär. USB kabeli täzeden dakyp synanyşyň.
+
+Mac OS X enjamlarynda Android File Transfer ýa-da Samsung Smart Switch gurnamaly. Android File Transfer göçürip almak üçin, %1$s baryň ýa-da Samsung Smart Switch göçürip almak üçin, %2$s baryň."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">Birigen enjam şu planşetdäki faýllara girip biler (MTP birikmesi).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">Telefon maglumatyna giriş rugs. bermelimi?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">Planşet maglumatyna giriş rugs. bermelimi?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">Birigen enjam bu telefondaky maglumata girip biler.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">Birigen enjam bu planşetdäki maglumata girip biler.</string>
+    <string name="VMTP_CATEGORY_TITLE">Kitaphana</string>
+    <string name="VTYPE_IMG">Suratlar</string>
+    <string name="VTYPE_AUDIO">Audio</string>
+    <string name="VTYPE_VIDEO">Wideolar</string>
+    <string name="VTYPE_DOC">Resminamalar</string>
+    <string name="VTYPE_APP">Goýmalar</string>
+    <string name="VTYPE_OTHER">Başga</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">Skrinşotlar</string>
+    <string name="CAMERA">Kamera</string>
+    <string name="INT_MEM">Içerki toplaýjy</string>
+    <string name="EXT_MEM">SD kart</string>
+    <string name="VMTP_SHARE_TITLE">Enjamdan faýl paýlaşmak</string>
+</resources>

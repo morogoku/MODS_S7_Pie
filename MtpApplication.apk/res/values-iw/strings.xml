@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">יישום MTP</string>
+    <string name="alert_title">התראה</string>
+    <string name="error_title">שים לב</string>
+    <string name="bluetooth_running">הפעלת מצב USB תבטל את פעולת Bluetooth. להמשיך?</string>
+    <string name="alert_dialog_yes">כן</string>
+    <string name="alert_dialog_no">לא</string>
+    <string name="animation_initializing">מאתחל…</string>
+    <string name="animation_connected">מחובר</string>
+    <string name="animation_synchronizing">מסנכרן</string>
+    <string name="animation_downloading">מוריד…</string>
+    <string name="animation_sending">שולח…</string>
+    <string name="notification_mtp_connected">‏MTP מחובר.</string>
+    <string name="notification_usb_connected">‏USB מחובר.</string>
+    <string name="notification_mtp_initialization">אתחול MTP</string>
+    <string name="alert_dialog_ok">אישור</string>
+    <string name="alert_dialog_cancel">ביטול</string>
+    <string name="non_idle_toast">חיבור המחשב זמין רק במצב המתנה. סגור יישומים פועלים</string>
+    <string name="media_scanner_running">סורק מדיה פועל…</string>
+    <string name="media_scanner_finished">סריקת מדיה הושלמה.</string>
+    <string name="kies_software_check">מחפש את Samsung Kies (תוכנת חיבור מחשב)…</string>
+    <string name="security_policy_restriction">מדיניות האבטחה מונעת שימוש בחיבור למחשב.</string>
+    <string name="resume_to_call">חדש שיחה</string>
+    <string name="store_add_popup">יישום MTP זה יתחיל מחדש כדי להכין את כרטיס ה-SD. להמשיך?</string>
+    <string name="stms_version">‏ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">החיבור שלך השתנה באופן אוטומטי ל-USB 2.0 משום שהוא לא היה פעיל במשך %d. כדי להשתמש ב-USB 3.0, פתח את אפשרויות ה-USB דרך חלונית ההתראות ובחר במכשיר מדיה (USB 3.0).</string>
+    <string name="nousbdriver_attention_message">המחשב המחובר לא זיהה מכשיר זה. יש תמיכה ב-Windows XP Service Pack 3 ומעלה וב-Mac OS X 10.5 ומעלה. כדי להתחבר אל Microsoft Windows חובה להתקין את Windows Media Player בגרסה 10 ומעלה; ב-Mac OS X חובה להתקין את Android File Transfer. כדי לסנכרן, לגבות ולשחזר נתונים ולשדרג את המכשיר שלך, הורד את העברה חכמה של Samsung ל-Windows או ל-Mac OS X דרך http://www.samsung.com/smartswitch.</string>
+    <string name="nousbdriver_attention_message_nokies">לא ניתן למצוא במחשב שלך את התוכנה לזיהוי המכשיר. יש להתקין את Service pack 3‏, Windows Media Player‏, גרסה 11 ואילך או את מנהל מכשיר ה-USB של Samsung עבור Windows XP,‏ או את Android file transfer עבור מערכת הפעלה Mac‏ (ראה www.microsoft.com או www.android.com/filetransfer).</string>
+    <string name="do_not_show_again">אל תציג שוב</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">אישור גישה אל נתוני המכשיר</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">חיבור MTP ייווצר כדי לקבל גישה לנתונים שבמכשיר המחובר.</string>
+    <string name="TS_DENY_BUTTON_ABB2">דחה</string>
+    <string name="TS_ALLOW_BUTTON_ABB">אפשר</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"המכשיר המחובר אינו מצליח לגשת לנתונים השמורים במכשיר זה. חבר מחדש את כבל ה-USB ונסה שוב.
+
+במכשירי Mac OS X חובה להתקין 'העברת קבצים של Android'. כדי להוריד את 'העברת קבצים של Android', עבור אל %s."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"המכשיר המחובר אינו מצליח לגשת לנתונים השמורים במכשיר זה. חבר מחדש את כבל ה-USB ונסה שוב.
+
+במכשירי Mac OS X חובה להתקין 'העברת קבצים של Android' או 'העברה חכמה של Samsung'. כדי להוריד את 'העברה חכמה של Android', עבור אל %1$s; כדי להוריד את 'העברה חכמה של Samsung', עבור אל %2$s."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">המכשיר המחובר יורשה לגשת לקבצים בטאבלט זה (חיבור MTP).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"המכשיר המחובר אינו מצליח לגשת לנתונים השמורים במכשיר זה. חבר מחדש את כבל ה-USB ונסה שוב.
+
+במכשירי Mac OS X חובה להתקין את היישום 'העברה חכמה'. כדי להוריד את 'העברה חכמה' של Samsung, עבור אל %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">האם לאשר גישה אל נתוני המכשיר?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">האם לאשר גישה אל נתוני הטאבלט?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">המכשיר המחובר אינו מצליח לגשת לנתונים השמורים בטלפון זה.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">המכשיר המחובר יורשה לגשת לקבצים בטאבלט זה.</string>
+    <string name="VMTP_CATEGORY_TITLE">ספרייה</string>
+    <string name="VTYPE_IMG">תמונות</string>
+    <string name="VTYPE_AUDIO">שמע</string>
+    <string name="VTYPE_VIDEO">סרטוני וידאו</string>
+    <string name="VTYPE_DOC">מסמכים</string>
+    <string name="VTYPE_APP">יישומים</string>
+    <string name="VTYPE_OTHER">אחר</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">תמונות מסך</string>
+    <string name="CAMERA">מצלמה</string>
+    <string name="INT_MEM">אחסון פנימי</string>
+    <string name="EXT_MEM">כרטיס SD</string>
+    <string name="VMTP_SHARE_TITLE">שיתוף קבצים מהמכשיר</string>
+</resources>

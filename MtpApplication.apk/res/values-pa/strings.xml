@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP ਅਨੁਪ੍ਰਯੋਗ</string>
+    <string name="alert_title">ਸਚੇਤ</string>
+    <string name="error_title">ਧਿਆਨ ਦਿਉ</string>
+    <string name="bluetooth_running">USB ਨੂੰ ਕਿਰਿਆਸ਼ੀਲ ਕਰਨ ਨਾਲ ਬਲੂਟੁੱਥ ਨਿਸ਼ਕ੍ਰਿਆ ਹੋ ਜਾਵੇਗਾ। ਜਾਰੀ ਰੱਖਣਾ ਹੈ?</string>
+    <string name="alert_dialog_yes">ਹਾਂ</string>
+    <string name="alert_dialog_no">ਨਹੀਂ</string>
+    <string name="animation_initializing">ਸ਼ੁਰੂ ਹੋ ਰਿਹਾ ਹੈ…</string>
+    <string name="animation_connected">ਕਨੈਕਟ ਹੋਇਆ।</string>
+    <string name="animation_synchronizing">ਸਿੰਕ੍ਰੋਨਾਇਜ਼ ਹੋ ਰਿਹਾ ਹੈ…</string>
+    <string name="animation_downloading">ਡਾਉਨਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…</string>
+    <string name="animation_sending">ਭੇਜ ਰਿਹਾ ਹੈ…</string>
+    <string name="notification_mtp_connected">MTP ਕਨੈਕਟ ਹੋਇਆ।</string>
+    <string name="notification_usb_connected">USB ਕਨੈਕਟ ਹੋਈ।</string>
+    <string name="notification_mtp_initialization">MTP ਪ੍ਰਬੰਧਨ</string>
+    <string name="alert_dialog_ok">ਓਕੇ</string>
+    <string name="alert_dialog_cancel">ਰੱਦ</string>
+    <string name="media_scanner_running">ਮੀਡਿਆ ਸਕੈਨਰ ਚਲ ਰਿਹਾ ਹੈ…</string>
+    <string name="media_scanner_finished">ਮੀਡਿਆ ਸਕੈਨਿੰਗ ਪੂਰਨ।</string>
+    <string name="kies_software_check">Samsung Kies (PC ਕਨੈਕਸ਼ਨ ਸੌਫਟਵੇਅਰ) ਲਈ ਜਾਂਚ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…</string>
+    <string name="security_policy_restriction">ਸੁਰੱਖਿਆ ਨੀਤੀ PC ਕਨੈਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਨੂੰ ਸੀਮਿਤ ਕਰਦੀ ਹੈ।</string>
+    <string name="resume_to_call">ਕਾੱਲ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="store_add_popup">SD ਕਾਰਡ ਤਿਆਰ ਕਰਨ ਲਈ MTP ਅਨੁਪ੍ਰਯੋਗ ਦੁਬਾਰਾ ਅਰੰਭ ਹੋਵੇਗਾ। ਜਾਰੀ ਰੱਖਣਾ ਹੈ?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">ਤੁਹਾਡੇ ਕਨੈਕਸ਼ਨ ਨੂੰ ਸਵੈਚਲਿਤ ਰੂਪ ਤੋਂ USB 2.0 ਵਿੱਚ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ ਕਿਉਂਕਿ ਇਹ %d ਮਿੰਟ ਲਈ ਨਿਸ਼ਕ੍ਰਿਆ ਸੀ। USB 3.0 ਦਾ ਉਪਯੋਗ ਕਰਨ ਦੇ ਲਈ, ਸੂਚਨਾ ਪੈਨਲ ਰਾਹੀਂ USB ਵਿਕਲਪ ਖੋਲ੍ਹੋ ਅਤੇ “ਮੀਡਿਆ ਡਿਵਾਈਸ (USB 3.0)” ਚੁਣੋ।</string>
+    <string name="nousbdriver_attention_message">ਕਨੈਕਟ ਕੀਤੇ ਗਏ ਕੰਪਿਊਟਰ ਦੁਆਰਾ ਇਸ ਡਿਵਾਈਸ ਦੀ ਪਛਾਣ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ। ਵਿੰਡੋਜ਼ XP ਸੇਵਾ ਪੈਕ 3 ਜਾਂ ਉੱਚ ਅਤੇ Mac OS X 10.5 ਜਾਂ ਉੱਚ ਸਮਰਥਿਤ ਹਨ। Microsoft ਵਿੰਡੋਜ਼ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ ਵਿੰਡੋਜ਼ ਮੀਡਿਆ ਪਲੇਅਰ ਸੰਸਕਰਣ 10 ਜਾਂ ਉੱਚ ਸਥਾਪਿਤ ਹੋਣਾ ਚਾਹਿਦਾ ਹੈ, ਜਾਂ Mac OS X ਲਈ ਐਂਡ੍ਰੌਇਡ ਫਾਈਲ ਟ੍ਰਾਂਸਫਰ ਸਥਾਪਿਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਡੈਟਾ ਸਿੰਕ, ਬੈਕ ਅਪ, ਅਤੇ ਪੁਨਰ ਸਥਾਪਿਤ ਕਰਨ ਅਤੇ ਆਪਣੇ ਡਿਵਾਈਸ ਨੂੰ ਅਪਗ੍ਰੇਡ ਕਰਨ ਲਈ, http://www.samsung.com/smartswitch ਤੋਂ ਵਿੰਡੋਜ਼ ਜਾਂ Mac OS X ਲਈ Samsung Smart Switch ਡਾਉਨਲੋਡ ਕਰੋ।</string>
+    <string name="nousbdriver_attention_message_nokies">ਤੁਹਾਡੇ PC ਜੋ ਤੁਹਾਡੇ ਡਿਵਾਈਸ ਨੂੰ ਪਛਾਣ ਸਕਦੇ ਹਨ ਤੇ ਸੌਫਟਵੇਅਰ ਲੱਭਣ ਵਿੱਚ ਅਸਮਰੱਥ। ਸੇਵਾ ਪੈਕ 3, ਵਿੰਡੋਜ਼ ਮੀਡਿਆ ਪਲੇਅਰ, ਸੰਸਕਰਣ 11 ਜਾਂ ਅਧਿਕ, ਜਾਂ ਵਿੰਡੋਜ਼ XP ਦੇ ਲਈ ਸੈਮਸੰਗ USB ਡ੍ਰਾਅਇਵਰ, ਜਾਂ ਐਂਡ੍ਰੋਇਡ ਫਾਈਲ ਸਥਾਨਅੰਤਰਨ ਦੇ ਲਈ ਮੈਕ OS ਜ਼ਰੂਰ ਸਥਾਪਿਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ (www.microsoft.com ਜਾਂ www. android.com/filetransfer ਦੇਖੋ)।</string>
+    <string name="do_not_show_again">ਦੁਬਾਰਾ ਨਾ ਦਿਖਾਉ</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">ਡਿਵਾਈਸ ਡੈਟਾ ਐਕਸੈੱਸ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿਉ</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">ਕਨੈਕਟ ਕੀਤੇ ਡਿਵਾਈਸ ਤੇ ਡੈਟਾ ਐਕਸੈੱਸ ਕਰਨ ਲਈ ਇੱਕ MTP ਕਨੈਕਸ਼ਨ ਸਥਾਪਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।</string>
+    <string name="TS_DENY_BUTTON_ABB2">ਅਸਵੀਕਾਰ ਕਰੋ</string>
+    <string name="TS_ALLOW_BUTTON_ABB">ਆਗਿਆ ਦਿਓ</string>
+</resources>

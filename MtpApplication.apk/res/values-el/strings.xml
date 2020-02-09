@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Εφαρμογή MTP</string>
+    <string name="alert_title">Ειδοποίηση</string>
+    <string name="error_title">Προσοχή</string>
+    <string name="bluetooth_running">Η ενεργοποίηση της λειτουργίας USB θα απενεργοποιήσει το Bluetooth. Συνέχεια;</string>
+    <string name="alert_dialog_yes">Ναι</string>
+    <string name="alert_dialog_no">Όχι</string>
+    <string name="animation_initializing">Προετοιμασία…</string>
+    <string name="animation_connected">Συνδέθηκε.</string>
+    <string name="animation_synchronizing">Συγχρονισμός…</string>
+    <string name="animation_downloading">Λήψη…</string>
+    <string name="animation_sending">Αποστολή</string>
+    <string name="notification_mtp_connected">Το MTP συνδέθηκε.</string>
+    <string name="notification_usb_connected">Το USB συνδέθηκε.</string>
+    <string name="notification_mtp_initialization">Προετοιμασία MTP</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Ακύρωση</string>
+    <string name="non_idle_toast">Η σύνδεση με τον υπολογιστή είναι διαθέσιμη μόνο σε κατάσταση αναμονής. Nα κλείσουν όλες οι εφαρμογές που εκτελούνται</string>
+    <string name="media_scanner_running">Εκτελείται σάρωση πολυμέσων…</string>
+    <string name="media_scanner_finished">Η σάρωση πολυμέσων ολοκληρώθηκε.</string>
+    <string name="kies_software_check">Έλεγχος για Samsung Kies (λογισμικό σύνδεσης υπολογιστή)…</string>
+    <string name="security_policy_restriction">Η πολιτική ασφαλείας δεν επιτρέπει τη χρήση σύνδεσης υπολογιστή.</string>
+    <string name="resume_to_call">Συνέχιση κλήσης</string>
+    <string name="store_add_popup">Θα γίνει επανεκκίνηση της εφαρμογής MTP για την προετοιμασία της κάρτας SD. Συνέχεια;</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">Η σύνδεσή σας άλλαξε αυτόματα σε USB 2.0 επειδή ήταν ανενεργή για %d λεπτά. Για να χρησιμοποιήσετε σύνδεση USB 3.0, ανοίξτε τις επιλογές USB μέσω του πίνακα ειδοποιήσεων και επιλέξτε τη συσκευή πολυμέσων (USB 3.0).</string>
+    <string name="nousbdriver_attention_message">Η συσκευή δεν αναγνωρίστηκε από τον συνδεδεμένο υπολογιστή. Υποστηρίζονται τα Windows XP Service Pack 3 και νεότερες εκδόσεις και το Mac OS X 10.5 και νεότερες εκδόσεις. Για τη σύνδεση στα Microsoft Windows θα πρέπει να έχετε εγκαταστήσει το Windows Media Player έκδοση 10 ή νεότερη. Για το Mac OS X θα πρέπει να έχετε εγκαταστήσει το Android File Transfer. Για το συγχρονισμό, τη δημιουργία αντιγράφων ασφαλείας και την επαναφορά δεδομένων, κάντε λήψη του Samsung Smart Switch για Windows ή Mac OS X από τη διεύθυνση http://www.samsung.com/smartswitch.</string>
+    <string name="nousbdriver_attention_message_nokies">Δεν είναι δυνατή η εύρεση λογισμικού στον υπολογιστή σας για την αναγνώριση της συσκευής σας. Πρέπει να είναι εγκατεστημένο το Service pack 3 για το Windows Media Player, έκδοσης 11 ή νεότερης ή το πρόγραμμα οδήγησης του Samsung USB για τα Windows XP ή το Android file transfer για το Mac OS (ανατρέξτε στη διεύθυνση www.microsoft.com ή www.android.com/filetransfer).</string>
+    <string name="do_not_show_again">Να μην εμφανιστεί ξανά</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">Επιτρέπεται η πρόσβαση στα δεδομένα της συσκευής</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">Θα δημιουργηθεί μια σύνδεση MTP για την πρόσβαση στα δεδομένα της συνδεδεμένης συσκευής.</string>
+    <string name="TS_DENY_BUTTON_ABB2">Απόρριψη</string>
+    <string name="TS_ALLOW_BUTTON_ABB">Αποδοχή</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"Η συνδεδεμένη συσκευή δεν μπορεί να αποκτήσει πρόσβαση στα δεδομένα αυτής της συσκευής. Συνδέστε ξανά το καλώδιο USB και δοκιμάστε ξανά.
+
+Σε συσκευές με Mac OS X θα πρέπει να εγκαταστήσετε το Android File Transfer. Για τη λήψη του Android File Transfer, μεταβείτε στη διεύθυνση %s."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"Η συνδεδεμένη συσκευή δεν μπορεί να αποκτήσει πρόσβαση στα δεδομένα αυτής της συσκευής. Συνδέστε ξανά το καλώδιο USB και δοκιμάστε ξανά.
+
+Σε συσκευές με Mac OS X θα πρέπει να εγκαταστήσετε το Android File Transfer ή το Samsung Smart Switch. Για τη λήψη του Android File Transfer, μεταβείτε στη διεύθυνση %1$s. Για τη λήψη του Samsung Smart Switch, μεταβείτε στη διεύθυνση %2$s."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">Η συνδεδεμένη συσκευή θα έχει πρόσβαση στα αρχεία αυτού του tablet (σύνδεση MTP).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">Να επιτρ. η πρόσβαση στα δεδομ. τηλεφώνου;</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">Να επιτρ. η πρόσβαση στα δεδομ. tablet;</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">Η συνδεδεμένη συσκευή θα έχει πρόσβαση στα δεδομένα αυτού του τηλεφώνου.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">Η συνδεδεμένη συσκευή θα έχει πρόσβαση στα δεδομένα αυτού του tablet.</string>
+    <string name="VMTP_CATEGORY_TITLE">Βιβλιοθήκη</string>
+    <string name="VTYPE_IMG">Εικόνες</string>
+    <string name="VTYPE_AUDIO">Ήχος</string>
+    <string name="VTYPE_VIDEO">Βίντεο</string>
+    <string name="VTYPE_DOC">Έγγραφα</string>
+    <string name="VTYPE_APP">Εφαρμογές</string>
+    <string name="VTYPE_OTHER">Άλλο</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">Στιγμιότυπα οθόνης</string>
+    <string name="CAMERA">Κάμερα</string>
+    <string name="INT_MEM">Εσωτερικός χώρος αποθήκευσης</string>
+    <string name="EXT_MEM">Κάρτα SD</string>
+    <string name="VMTP_SHARE_TITLE">Κοινή χρήση αρχείου από τη συσκευή</string>
+</resources>

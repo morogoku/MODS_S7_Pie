@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">‏MTP ایپلیکیشن</string>
+    <string name="alert_title">انتباہ</string>
+    <string name="error_title">توجہ</string>
+    <string name="bluetooth_running">‏USB موڈ زیر عمل کرنا Bluetooth کو بے عمل کردے گا۔ جاری رکھیں؟</string>
+    <string name="alert_dialog_yes">ہاں</string>
+    <string name="alert_dialog_no">نہیں</string>
+    <string name="animation_initializing">فہرست شروع ہو رہی ہے</string>
+    <string name="animation_connected">منسلک ہوگیا۔</string>
+    <string name="animation_synchronizing">سنکرونائز کررہا ہے…</string>
+    <string name="animation_downloading">ڈاونلوڈ کر رہا ہے۔۔۔</string>
+    <string name="animation_sending">بھیجنا…</string>
+    <string name="notification_mtp_connected">‏MTP سے جڑا ہوا۔</string>
+    <string name="notification_usb_connected">‏USB سے جڑا ہوا۔</string>
+    <string name="notification_mtp_initialization">‏MTP ابتدا کرنا</string>
+    <string name="alert_dialog_ok">ٹھیک ہے</string>
+    <string name="alert_dialog_cancel">منسوخ</string>
+    <string name="non_idle_toast">‏PC کنکشن صرف خالی حالت میں دستیاب ہے۔ چلتی ہوئی ایپلیکیشنیں بند کریں</string>
+    <string name="media_scanner_running">میڈیا اسکینر چل رہا ہے…</string>
+    <string name="media_scanner_finished">میڈیا اسکیننگ مکمل ہوگئی۔</string>
+    <string name="kies_software_check">پزتال برائے Samsung Kies (PC کنکشن سافٹ ویئر)…</string>
+    <string name="security_policy_restriction">سیکیورٹی پالیسی کمپیوٹر کنیکشن کے استعمال سے بچاتا ہے۔</string>
+    <string name="resume_to_call">کال بحال کریں</string>
+    <string name="store_add_popup">‏STP کارڈ تیار کرنے کے لئے MTP ایپلیکیشن پھر سے چالو ہوجائے گی۔ جاری رکھیں؟</string>
+    <string name="stms_version">‏ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">آپ کا کنکشن خودکار طور پر USB 2.0 پر تبدیل کیا جاچکا ہے چونکہ یہ %d منٹ کے لئے بے عمل رہا ہے۔ USB 3.0 استعمال کرنے کے لئے، اعلامیہ پینل کے ذریعہ USB [اختیارات] کھولیں اور [میڈیا آلہ] (USB 3.0) منتخب کریں۔</string>
+    <string name="nousbdriver_attention_message">اس آلہ کی شناخت مربوط کمپیوٹر سے نہیں ہوئی۔ ونڈوز XP سروس پیک 3 یا اعلی اور Mac OS X 10.5 یا اعلی تائید یافتہ ہے۔ Microsoft ونڈوز سے جڑنے کے لیے ونڈوز میڈیا پلیئر ورژن 10 یا اعلی نصب ہونا چاہیے، یا Mac OS X کے لیے Android فائل منتقل نصب ہونا ضروری ہے۔ مطابقت پذیری، بیک اپ، اور ڈیٹا بحال کرنے، اور آلہ کی درجہ افزونی کرنے کے لیے ونڈوز کے لیے Samsung Smart Switch یا http://www.samsung.com/smartswitch سے Mac OS X ڈاؤن لوڈ کریں۔</string>
+    <string name="nousbdriver_attention_message_nokies">آپ کے PC پر ایسا سافٹ ویئر ڈھونڈنے سے قاصر جو آپ کے آلہ کو شناخت کرسکتا ہو۔ سروس پیک 3، Windows میڈیا پلیئر، ورژن 11 یا بالا تر، یا Samsung USB ڈرائیور برائے Windows XP، یا Android فائل منتقلی برائے Mac OS کے لئے نصب کرنا ضروری ہے (ملاحظہ کریں www.microsoft.com یا www.android.com/filetransfer)۔</string>
+    <string name="do_not_show_again">دوبارہ مت دکھائیں</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">آلہ ڈیٹا تک رسائی کی اجازت دیں</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">جڑے ہوئے آلہ پر ڈیٹا تک رسائی کے لیے ایک MTP کنکشن قائم کیا جائے گا۔</string>
+    <string name="TS_DENY_BUTTON_ABB2">مسترد کریں</string>
+    <string name="TS_ALLOW_BUTTON_ABB">اجازت دیں</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"جڑا ہوا آلہ اس آلہ کے ڈیٹا تک رسائی سے قاصر ہے۔ USB کیبل کو دوبارہ جوڑیں اور دوبارہ کوشش کریں۔
+
+Mac OS X آلات پر Android File Transfer کا نصب ہونا ضروری ہے۔ Android File Transfer ڈاؤن لوڈ کرنے کے لیے، %s پر جائیں۔"</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"جڑا ہوا آلہ اس آلہ کے ڈیٹا تک رسائی سے قاصر ہے۔ USB کیبل کو دوبارہ جوڑیں اور دوبارہ کوشش کریں۔
+
+Mac OS X آلات پر Android File Transfer یا Samsung Smart Switch کا نصب ہونا ضروری ہے۔ Android File Transfer ڈاؤن لوڈ کرنے کے لیے، %1$s پر جائیں، یا Samsung Smart Switch ڈاؤن لوڈ کرنے کے لیے، %2$s پر جائیں۔"</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">مربوط ڈیوائس اس ٹیبلیٹ پر فائلوں تک رسائی حاصل کر سکے گا (MTP کنکشن)۔</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">فون ڈیٹا تک رسائی کی اجازت دیں؟</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">ٹیبلیٹ ڈیٹا تک رسائی کی اجازت دیں؟</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">مربوط آلہ اس فون کے ڈیٹا تک رسائی کے قابل ہوگا۔</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">مربوط آلہ اس ٹیبلیٹ پر ڈیاٹ تک رسائی کے قابل ہوگا۔</string>
+    <string name="VMTP_CATEGORY_TITLE">لائبریری</string>
+    <string name="VTYPE_IMG">تصاویر</string>
+    <string name="VTYPE_AUDIO">آڈیو</string>
+    <string name="VTYPE_VIDEO">ویڈيوز</string>
+    <string name="VTYPE_DOC">دستاویزات</string>
+    <string name="VTYPE_APP">ایپلیکیشنز</string>
+    <string name="VTYPE_OTHER">دیگر</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">اسکرین شاٹس</string>
+    <string name="CAMERA">کیمرہ</string>
+    <string name="INT_MEM">اندرونی ذخیرہ</string>
+    <string name="EXT_MEM">‏SD کارڈ</string>
+    <string name="VMTP_SHARE_TITLE">فائل آلہ سے شیئر کریں</string>
+</resources>

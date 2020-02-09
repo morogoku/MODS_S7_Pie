@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP பயன்பாடு</string>
+    <string name="alert_title">எச்சரிக்கை</string>
+    <string name="error_title">கவனம்</string>
+    <string name="bluetooth_running">USB முறையை செயல்படுத்தினால் ப்ளூடூத் செயல்நீக்கப்படும். தொடரவா?</string>
+    <string name="alert_dialog_yes">ஆம்</string>
+    <string name="alert_dialog_no">இல்லை</string>
+    <string name="animation_initializing">துவங்குகிறது…</string>
+    <string name="animation_connected">இணைக்கபட்டது.</string>
+    <string name="animation_synchronizing">ஒத்திசைகிறது…</string>
+    <string name="animation_downloading">பதிவிறக்குகிறது…</string>
+    <string name="animation_sending">அனுப்பு…</string>
+    <string name="notification_mtp_connected">MTP இணைக்கப்பட்டது.</string>
+    <string name="notification_usb_connected">USB இணைக்கப்பட்டது.</string>
+    <string name="notification_mtp_initialization">MTP துவங்குதல்</string>
+    <string name="alert_dialog_ok">சரி</string>
+    <string name="alert_dialog_cancel">ரத்து</string>
+    <string name="media_scanner_running">ஊடக ஸ்கேனர் இயங்குகிறது…</string>
+    <string name="media_scanner_finished">ஊடக ஸ்கேனிங் முடிந்தது.</string>
+    <string name="kies_software_check">Samsung Kies-காக சரிபார்க்கிறது (PC இணைப்பு மென்பொருள்)…</string>
+    <string name="security_policy_restriction">கணினி இணைப்பைப் பயன்படுத்தப்படுவதை, பாதுகாப்புக் கொள்கை தடை செய்கிறது.</string>
+    <string name="resume_to_call">அழைப்பை தொடர்க</string>
+    <string name="store_add_popup">SD அட்டை தயார் செய்ய MTP பயன்பாடானது மீண்டும் துவக்கப்படும். தொடரவா?</string>
+    <string name="stms_version">ANDROID_P4_20150427_1102</string>
+    <string name="usb_switch_title">USB 3.0 connection</string>
+    <string name="usb_switch_notification">உங்கள் இணைப்புத் தானாகவே USB 2.0க்கு மாற்றப்பட்டது ஏனெனில் அது %d நிமிடங்களுக்கு செயலற்றதாக இருந்துள்ளது. USB 3.0 பயன்படுத்த, USB தெரிவுகளை அறிவிப்பு பலகை வழியாகத் திறந்து பின்பு ஊடக சாதனம் (USB 3.0)” என்பதைத் தேர்வுசெய்யவும்.</string>
+    <string name="nousbdriver_attention_message">இணைக்கப்பட்ட கணினி இந்தச் சாதனத்தை அடையாளங்காணவில்லை. விண்டோஸ் XP சேவைத் தொகுப்பு 3 அல்லது அதற்கும் அதிகமானது மற்றும் Mac OS X 10.5 அல்லது அதற்கும் அதிகமானது ஆதரிக்கப்படுகின்றன. Microsoft விண்டோஸ் உடன் இணைக்க, விண்டோஸ் ஊடக இயக்கி பதிப்பு 10 அல்லது அதற்கும் அதிகமானதை நிறுவ வேண்டும், அல்லது Mac OS X-க்கு ஆண்ட்ராய்டு கோப்பு இடமாற்றத்தை நிறுவ வேண்டும். தரவை ஒத்திசைக்க, பின்சேமிக்க மற்றும் மீள்சேமிக்க மற்றும் உங்கள் சாதனத்தை தரமுயர்த்த, http://www.samsung.com/smartswitch-இல் இருந்து விண்டோஸ் அல்லது Mac OS X-க்கான Samsung Smart Switch பதிவிறக்கவும்.</string>
+    <string name="nousbdriver_attention_message_nokies">உங்கள் சாதனத்தை அடையாளங்காணக்கூடிய மென்பொருளை உங்கள் PC யில் கண்டறிய இயலவில்லை. சர்வீஸ் பேக் 3, விண்டோஸ் ஊடக இயக்கி, பதிப்பு 11 அல்லது விண்டோஸ் XP க்கு சாம்சங் USB டிரைவர் அல்லது OSக்கு ஆன்ராய்டு கோப்பு பரிமாற்றம் ஆகியவை நிறுவப்பட வேண்டும் (www.microsoft.com அல்லது www. android.com/filetransferயை பார்க்கவும்).</string>
+    <string name="do_not_show_again">மீண்டும் காட்ட வேண்டாம்</string>
+    <string name="SS_ALLOW_ACCESS_TO_DEVICE_DATA_HEADER">சாதன தரவிற்கு அணுகலை அனுமதிக்கவும்</string>
+    <string name="SS_AN_MTP_CONNECTION_WILL_BE_ESTABLISHED_TO_ACCESS_THE_DATA_ON_THE_CONNECTED_DEVICE">இணைக்கப்பட்டச் சாதனத்தில் தரவை அணுக, MTP இணைப்பு நிலைநாட்டப்படும்.</string>
+    <string name="TS_DENY_BUTTON_ABB2">நிராகரி.</string>
+    <string name="TS_ALLOW_BUTTON_ABB">அனுமதி</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_MSG">"இணைக்கப்பட்ட சாதனத்தினால் இந்த சாதனத் தரவை அணுக இயலவில்லை. USB கேபிள் மீ. இணைத்து, மீண்டும் முயலவும்.
+
+Mac OS X சாதனங்களில் Android File Transfer-ஐ நிறுவ வேண்டும். Android File Transfer-ஐ பதிவிறக்க, %s-க்கு செல்லவும்."</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NANDROID_MSG">"இணைக்கப்பட்ட சாதனத்தினால் இந்த சாதனத் தரவை அணுக இயலவில்லை. USB கேபிள் மீ. இணைத்து, மீண்டும் முயலவும்.
+
+Mac OS X சாதனங்களில் Android File Transfer அல்லது Samsung Smart Switch-ஐ நிறுவ வேண்டும். Android File Transfer-ஐ பதிவிறக்க, %1$s-க்கு செல்லவும் அல்லது Samsung Smart Switch-ஐ பதிவிறக்க, %2$s செல்லவும்."</string>
+    <string name="SS_ALLOW_ACCESS_TO_YOUR_DATA_HEADER_US">Allow access to your data</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_PHONE_HMTP_CONNECTION_US">The connected device will be able to access files on this phone (MTP connection).</string>
+    <string name="SS_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_FILES_ON_THIS_TABLET_HMTP_CONNECTION_US">இணைக்கப்பட்ட சாதனத்தால் இந்த டேப்லெட்டில் கோப்புகளை அணுக இயலும் (MTP இணைப்பு).</string>
+    <string name="SS_OTHER_USB_OPTIONS_OPT_US">Other USB options</string>
+    <string name="SS_THE_CONNECTED_DEVICE_IS_UNABLE_TO_ACCESS_DATA_ON_THIS_DEVICE_RECONNECT_THE_USB_CABLE_AND_TRY_AGAIN_N_NSAMSUNG_SMART_SWITCH_MSG_CHN">"The connected device is unable to access data on this device. Reconnect the USB cable and try again.
+
+Samsung Smart Switch must be installed on Mac OS X devices. To download Samsung Smart Switch, go to %s."</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_PHONE_DATA_Q_PHEADER">ஃபோன் தரவிற்கு அணுகலை அனுமதிக்கவா?</string>
+    <string name="DREAM_ALLOW_ACCESS_TO_TABLET_DATA_Q_PHEADER">டேப்லெட் தரவிற்கு அணுகலை அனுமதிக்கவா?</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_PHONE">இணைக்கப்பட்ட சாதனத்தினால் இந்த ஃபோனில் உள்ள தரவை அணுக இயலும்.</string>
+    <string name="DREAM_THE_CONNECTED_DEVICE_WILL_BE_ABLE_TO_ACCESS_DATA_ON_THIS_TABLET">இணைக்கப்பட்ட சாதனத்தினால் இந்த டேப்லெட்டில் உள்ள தரவை அணுக இயலும்.</string>
+    <string name="VMTP_CATEGORY_TITLE">நூலகம்</string>
+    <string name="VTYPE_IMG">படிமங்கள்</string>
+    <string name="VTYPE_AUDIO">கேட்பொலி</string>
+    <string name="VTYPE_VIDEO">நிகழ்படங்கள்</string>
+    <string name="VTYPE_DOC">ஆவணங்கள்</string>
+    <string name="VTYPE_APP">பயன்பாடுகள்</string>
+    <string name="VTYPE_OTHER">மற்றவை</string>
+    <string name="WEIXIN">WeChat</string>
+    <string name="SCREENSHOT">ஸ்கிரீன்ஷாட்கள்</string>
+    <string name="CAMERA">கேமரா</string>
+    <string name="INT_MEM">உள்ளகச் சேமிப்பகம்</string>
+    <string name="EXT_MEM">SD அட்டை</string>
+    <string name="VMTP_SHARE_TITLE">சாதனத்திலிருந்து பகிரப்பட்ட கோப்பு</string>
+</resources>

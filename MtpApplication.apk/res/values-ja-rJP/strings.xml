@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="samsung_kies_text">[ホーム] キー​を​押して​、​Samsung Kies​を​終了</string>
+    <string name="media_player_text">[ホーム] キーを押して、MTPモードを終了</string>
+    <string name="sdcard_insert_while_running_mtp">"外部SDカードが挿入されました。
+MTPを再起動しますか？"</string>
+</resources>
