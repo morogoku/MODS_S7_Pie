@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/brightness_level_root" android:paddingBottom="@dimen/qspanel_brightness_detail_settings_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/brightness_title" android:paddingBottom="@dimen/qspanel_brightness_detail_level_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qspanel_brightness_detail_level" android:layout_marginStart="@dimen/qs_detail_items_side_padding" android:layout_marginEnd="@dimen/qs_detail_items_side_padding" style="@style/QSDetailItemTitle" />
+        <include layout="@layout/qspanel_brightness_dialog" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/auto_brightness_container" android:background="@drawable/qs_btn_borderless_rect_dark_ripple" android:paddingTop="@dimen/qspanel_brightness_detail_settings_padding_top_bottom" android:paddingBottom="@dimen/qspanel_brightness_detail_settings_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qspanel_brightness_detail_settings_between_margin" android:paddingStart="@dimen/qs_detail_items_side_padding" android:paddingEnd="@dimen/qs_detail_items_side_padding">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/auto_brightness_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qspanel_brightness_auto_brightness_title" style="@style/QSDetailItemTitle" />
+            <TextView android:id="@id/auto_brightness_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qspanel_brightness_auto_brightness_summary" style="@style/QSDetailItemSummary" />
+        </LinearLayout>
+        <com.android.systemui.qs.QSSwitch android:id="@id/auto_brightness_switch" android:importantForAccessibility="no" style="@style/QSDetailSwitch" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/control_on_top_container" android:background="@drawable/qs_btn_borderless_rect_dark_ripple" android:paddingTop="@dimen/qspanel_brightness_detail_settings_padding_top_bottom" android:paddingBottom="@dimen/qspanel_brightness_detail_settings_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qspanel_brightness_detail_settings_between_margin" android:paddingStart="@dimen/qs_detail_items_side_padding" android:paddingEnd="@dimen/qs_detail_items_side_padding">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/control_on_top_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qspanel_brightness_control_on_the_top_title" style="@style/QSDetailItemTitle" />
+            <TextView android:id="@id/control_on_top_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qspanel_brightness_control_on_the_top_summary" style="@style/QSDetailItemSummary" />
+        </LinearLayout>
+        <com.android.systemui.qs.QSSwitch android:id="@id/control_on_top_switch" android:importantForAccessibility="no" style="@style/QSDetailSwitch" />
+    </LinearLayout>
+</LinearLayout>
