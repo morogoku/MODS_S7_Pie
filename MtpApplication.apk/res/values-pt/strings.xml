@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicação MTP</string>
+    <string name="error_title">Atenção</string>
+    <string name="bluetooth_running">A activação do modo USB irá desactivar o Bluetooth. Continuar?</string>
+    <string name="alert_dialog_yes">Sim</string>
+    <string name="alert_dialog_no">Não</string>
+    <string name="animation_initializing">A inicializar...</string>
+    <string name="animation_connected">Ligado</string>
+    <string name="animation_synchronizing">A sincronizar...</string>
+    <string name="animation_downloading">A transferir...</string>
+    <string name="animation_sending">A enviar...</string>
+    <string name="notification_mtp_connected">MTP ligada</string>
+    <string name="notification_usb_connected">USB ligado</string>
+    <string name="notification_mtp_initialization">Inicialização MTP</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="non_idle_toast">Ligação a PC só disponível em Inactivo. Fechar todas as aplicações a ser executadas</string>
+    <string name="media_scanner_running">Analisador de multimédia a ser executado...</string>
+    <string name="media_scanner_finished">Pesquisa de multimédia concluída</string>
+    <string name="kies_software_check">A verificar Samsung Kies (software de ligação a PC)...</string>
+    <string name="samsung_kies_text">Prima a tecla Home para sair do Samsung Kies</string>
+    <string name="media_player_text">Prima a tecla principal para sair do leitor multimédia</string>
+    <string name="usb_status_text">Alterar definições de USB nas ligações sem fios e nas definições de rede para utilizar o dispositivo de armazenamento de massa</string>
+    <string name="sdcard_insert_while_running_mtp">A aplicação MTP será reiniciada para preparar cartão SD. Continuar?</string>
+</resources>
