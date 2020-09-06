@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/volume_expand_handler_color" />
+    <size android:height="@dimen/volume_dialog_handler_height" android:width="@dimen/volume_dialog_handler_width" />
+    <corners android:radius="1.0dip" />
+</shape>

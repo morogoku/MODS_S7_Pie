@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/small_volume_dialog" android:paddingTop="@dimen/volume_small_dialog_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/small_volume_dialog_content_parent" android:background="@drawable/volume_small_dialog_background" android:layout_width="@dimen/volume_small_dialog_width" android:layout_height="@dimen/volume_small_dialog_height" android:translationZ="0.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/small_volume_dialog_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

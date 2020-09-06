@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="5.0dip" />
+    <size android:height="@dimen/side_screen_menu_handler_height" android:width="@dimen/side_screen_menu_handler_width" />
+    <solid android:color="#99434343" />
+</shape>

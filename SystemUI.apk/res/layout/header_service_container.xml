@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/qs_header_service_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/qs_header_service_container_height" android:layout_below="@id/quick_status_bar_system_icons"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header_service_contents" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/qs_small_time_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="24.0dip" android:layout_marginEnd="98.0dip">
+            <com.android.systemui.statusbar.policy.QSClock android:textAppearance="@style/TextAppearance.StatusBar.Clock.Small" android:gravity="start|center" android:id="@id/small_clock" android:tag="header_service_container_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" systemui:wallpaperTextColor="@color/qs_servicebox_clock_color" />
+            <com.android.systemui.statusbar.policy.DateView android:textAppearance="@style/TextAppearance.StatusBar.Clock.Small" android:gravity="center_vertical" android:id="@id/small_date" android:tag="header_service_container_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="7.0dip" systemui:datePattern="@string/status_view_wday_day_month_no_year" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

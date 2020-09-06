@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.AffordanceArrowContainer android:orientation="vertical" android:id="@id/na_arrow_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/affordance_arrow_upper" android:visibility="invisible" android:layout_width="@dimen/affordance_arrow_width" android:layout_height="@dimen/affordance_arrow_height" android:layout_marginBottom="@dimen/affordance_arrow_between_margin" android:src="@drawable/lock_btn_shortcut_arrow" />
+    <ImageView android:id="@id/affordance_arrow_under" android:visibility="invisible" android:layout_width="@dimen/affordance_arrow_width" android:layout_height="@dimen/affordance_arrow_height" android:src="@drawable/lock_btn_shortcut_arrow" />
+</com.android.systemui.statusbar.AffordanceArrowContainer>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/volume_small_dialog_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.keyguard.AlphaOptimizedImageButton android:layout_gravity="center_vertical" android:id="@id/volume_row_icon" android:focusable="false" android:clickable="false" android:layout_width="@dimen/volume_small_dialog_icon_size" android:layout_height="@dimen/volume_small_dialog_icon_size" android:scaleType="centerInside" android:soundEffectsEnabled="false" style="@style/VolumeButtons" />
+    <SeekBar android:id="@id/volume_row_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/volume_small_dialog_seekbar_padding_start" android:paddingEnd="@dimen/volume_small_dialog_seekbar_padding_end" />
+</LinearLayout>

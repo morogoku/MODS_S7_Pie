@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="servicebox_alarm_page_ampm_text_size">32.0dip</dimen>
+    <dimen name="servicebox_alarm_page_dow_text_size">32.0dip</dimen>
+    <dimen name="servicebox_alarm_page_time_text_size">33.0dip</dimen>
+    <dimen name="servicebox_alarm_page_title_text_size">13.0dip</dimen>
+    <item type="dimen" name="servicebox_height">@dimen/servicebox_tablet_landscape_min_height</item>
+    <dimen name="servicebox_today_event_bar_margin">10.0dip</dimen>
+    <dimen name="servicebox_today_event_no_event_size">16.0dip</dimen>
+    <dimen name="servicebox_today_event_time_size_small">11.0dip</dimen>
+    <dimen name="servicebox_today_event_title_size_small">13.0dip</dimen>
+    <dimen name="servicebox_today_first_event_title">19.0dip</dimen>
+    <dimen name="servicebox_today_second_event_top_margin">3.0dip</dimen>
+    <dimen name="servicebox_today_holder_width">362.0dip</dimen>
+</resources>

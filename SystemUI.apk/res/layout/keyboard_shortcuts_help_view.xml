@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="27.0dip" android:paddingEnd="27.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/ksh_help_popup_content_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/keyboard_shortcut_popup_help" android:lineSpacingExtra="4.0sp" android:fontFamily="sec-roboto-light" />
+</FrameLayout>

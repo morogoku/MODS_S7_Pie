@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="7.0dip" android:paddingBottom="3.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/volume_dnd_divider" android:background="@color/volume_dialog_divider_color" android:layout_width="fill_parent" android:layout_height="@android:dimen/tw_list_divider_height" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_volume_dnd_icon" android:scaleType="center" android:tint="@color/volume_text_description_color" />
+        <TextView android:textAppearance="@style/TextAppearance.Volume.Description" android:ellipsize="end" android:id="@id/volume_dnd_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume_dnd_turned_on" android:maxLines="1" android:paddingStart="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

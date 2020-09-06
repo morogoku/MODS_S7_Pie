@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:id="@id/card_view_layout" android:layout_width="@dimen/card_view_item_width" android:layout_height="@dimen/card_view_item_height" android:layout_margin="5.0dip" cardCornerRadius="15.0dip" cardPreventCornerOverlap="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <CheckBox android:layout_gravity="end|center|top" android:id="@id/likeIcon" android:background="@drawable/like_icon" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="5.0dip" android:button="@null" android:layout_marginEnd="5.0dip" android:stateListAnimator="@animator/scale" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/item_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/card_view_img_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/card_view_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:maxLines="2" />
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

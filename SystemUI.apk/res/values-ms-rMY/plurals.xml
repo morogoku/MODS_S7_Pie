@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_attempt_left">
+        <item quantity="other">%d percubaan lagi</item>
+        <item quantity="one">%d percubaan lagi</item>
+    </plurals>
+    <plurals name="kg_attempt_remaining">
+        <item quantity="other">(%d percubaan yang tinggal)</item>
+        <item quantity="one">(1 percubaan yang tinggal)</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_biometric">
+        <item quantity="other">Cuba biometrik anda sekali lagi dalam %d saat</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_fingerprint">
+        <item quantity="other">Cuba cap jari anda sekali lagi dalam %d saat</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_min">
+        <item quantity="other">Cuba lagi dalam %d minit</item>
+        <item quantity="one">Cuba lagi selepas %d minit</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">Cuba lagi dalam %d saat</item>
+        <item quantity="one">Cuba lagi selepas %d saat</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_biometrics">
+        <item quantity="other">%1$d percubaan yang salah untuk mengesahkan biometrik anda. Cuba lagi dalam masa %2$d saat.</item>
+        <item quantity="one">%1$d percubaan yang salah untuk mengesahkan biometrik. Cuba lagi dalam masa %2$d saat.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_fingerprint">
+        <item quantity="other">%1$d percubaan yang salah untuk mengesahkan cap jari. Cuba lagi dalam masa %2$d saat.</item>
+        <item quantity="one">%1$d percubaan yang salah untuk mengesahkan cap jari. Cuba lagi dalam masa %2$d saat.</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">%d jam</item>
+        <item quantity="few">%d jam</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d minit</item>
+        <item quantity="one">N/A</item>
+        <item quantity="few">%d minit</item>
+    </plurals>
+</resources>

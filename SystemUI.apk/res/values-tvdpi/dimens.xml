@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="minimize_task_app_icon_offset">-0.5</item>
+    <dimen name="minimize_task_app_icon_target_size">55.0dip</dimen>
+    <dimen name="picture_in_picture_button_start_margin">-50.0dip</dimen>
+    <dimen name="picture_in_picture_button_width">100.0dip</dimen>
+</resources>

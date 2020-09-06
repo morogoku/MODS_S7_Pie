@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.systemui.sidescreen.SideScreenDividerView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SideScreenDividerShadow">
+        <com.samsung.android.systemui.sidescreen.SideScreenDividerShadowView android:id="@id/side_screen_divider_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="16.0dip" />
+    </FrameLayout>
+    <FrameLayout style="@style/SideScreenDividerHandler">
+        <ImageView android:layout_gravity="center" android:visibility="gone" android:src="@drawable/winner_mw_main_handler" android:scaleType="fitXY" android:tint="#fffafafa" android:foregroundGravity="center" android:contentDescription="@string/accessibility_divider" style="@style/SideScreenDividerHandlerView" />
+    </FrameLayout>
+</com.samsung.android.systemui.sidescreen.SideScreenDividerView>

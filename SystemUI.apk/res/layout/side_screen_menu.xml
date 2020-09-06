@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.systemui.sidescreen.SideScreenMenuView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/side_screen_menu_shadow_visibility_control_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent android:layout_gravity="left" android:id="@id/side_screen_menu_shadow_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/side_screen_menu_shadow_view" />
+        </com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent>
+        <com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent android:layout_gravity="center|top" android:id="@id/side_screen_menu_shadow_top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/side_screen_menu_shadow_view" />
+        </com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent>
+        <com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent android:layout_gravity="right" android:id="@id/side_screen_menu_shadow_right" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/side_screen_menu_shadow_view" />
+        </com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent>
+        <com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent android:layout_gravity="bottom|center" android:id="@id/side_screen_menu_shadow_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/side_screen_menu_shadow_view" />
+        </com.samsung.android.systemui.sidescreen.SideScreenMenuShadowParent>
+    </FrameLayout>
+    <com.samsung.android.systemui.sidescreen.SideScreenMenuOutlineView android:id="@id/side_screen_menu_outline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/winner_mw_sub_outline" />
+    <com.samsung.android.systemui.sidescreen.SideScreenMenuContentView android:id="@id/side_screen_menu_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/task_snapshot_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+        <FrameLayout android:id="@id/sub_window_handler" android:layout_width="@dimen/side_screen_menu_handler_touch_width" android:layout_height="@dimen/side_screen_menu_handler_touch_height">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/winner_mw_sub_handler" />
+        </FrameLayout>
+        <include android:id="@id/handler_buttons" layout="@layout/side_screen_menu_handler_buttons" />
+        <TextView android:textSize="@dimen/side_screen_edit_mode_content_font_size" android:textColor="#fffafafa" android:layout_gravity="bottom|center" android:id="@id/edit_mode_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/side_screen_edit_mode_content" android:fontFamily="sec-roboto-regular" />
+    </com.samsung.android.systemui.sidescreen.SideScreenMenuContentView>
+</com.samsung.android.systemui.sidescreen.SideScreenMenuView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.servicebox.KeyguardServiceBoxContainer android:id="@id/keyguard_status_view" android:tag="serviceboxContainer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/servicebox_min_height" androidprv:layout_maxHeight="@dimen/keyguard_security_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.systemui.servicebox.KeyguardServiceBoxViewPager android:id="@id/keyguard_servicebox_viewpager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/keyguard_owner_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <include layout="@layout/keyguard_owner_info" />
+            <include layout="@layout/keyguard_additional_info_view" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.systemui.servicebox.KeyguardServiceBoxContainer>

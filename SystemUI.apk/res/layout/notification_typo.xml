@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/status_bar_latest_event_typo" android:tag="typo" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/notification_typo_left_icon" />
+    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/private_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="39.5dip">
+        <include layout="@layout/notification_typo_private_header" />
+        <include layout="@layout/notification_typo_private_bottom" />
+    </LinearLayout>
+</FrameLayout>

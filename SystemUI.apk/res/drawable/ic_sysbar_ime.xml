@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="22.0dip" android:width="22.0dip" android:viewportWidth="66.0" android:viewportHeight="66.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M9,21m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M21,21m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M33,21m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M45,21m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M9,33m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M21,33m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M33,33m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M45,33m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M9,45m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M45,42H21c-1.656,0 -3,1.344 -3,3s1.344,3 3,3h24c1.657,0 3,-1.344 3,-3S46.657,42 45,42z" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M57,21m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M57,33m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+    <path android:fillColor="#ffffffff" android:pathData="M57,45m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeAlpha="0.95" android:fillAlpha="0.95" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/floating_notification_container_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/floating_notification_container_item_image" android:layout_width="@dimen/floating_notification_container_item_icon_width" android:layout_height="@dimen/floating_notification_container_item_icon_height" />
+    <TextView android:textSize="@dimen/floating_notification_container_item_title_fontsize" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/floating_notification_container_item_title" android:visibility="gone" android:layout_width="@dimen/floating_notification_container_item_icon_width" android:layout_height="@dimen/floating_notification_container_item_icon_height" android:lines="1" />
+</LinearLayout>

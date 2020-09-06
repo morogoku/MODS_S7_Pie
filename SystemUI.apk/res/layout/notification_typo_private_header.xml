@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TypoNotificationText" android:ellipsize="end" android:id="@id/typo_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:layout_alignParentStart="true" />
+    <DateTimeView android:textAppearance="@style/TypoNotificationTime" android:id="@id/typo_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:layout_marginStart="9.0dip" android:layout_toEndOf="@id/typo_title" />
+    <ImageView android:id="@id/typo_profile_badge" android:layout_width="@dimen/notification_typo_profile_badge_size" android:layout_height="@dimen/notification_typo_profile_badge_size" android:layout_marginTop="5.0dip" android:layout_marginStart="7.0dip" android:layout_toEndOf="@id/typo_time" />
+</RelativeLayout>
