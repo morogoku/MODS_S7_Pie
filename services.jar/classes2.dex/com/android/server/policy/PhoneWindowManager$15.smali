@@ -34,6 +34,25 @@
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .registers 6
 
+    const-string/jumbo v0, "android.goto.recovery"
+
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_gogo
+
+    iget-object v0, p0, Lcom/android/server/policy/PhoneWindowManager$15;->this$0:Lcom/android/server/policy/PhoneWindowManager;
+
+    invoke-virtual {v0}, Lcom/android/server/policy/PhoneWindowManager;->gotoRecovery()V
+
+    return-void
+
+    :cond_gogo
     const-string v0, "android.intent.action.DOCK_EVENT"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;

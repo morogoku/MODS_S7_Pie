@@ -1466,4 +1466,7 @@ Cualquier usuario puede actualizar las aplicaciones del resto de usuarios."</str
     <string name="zen_priority_introduction">No te molestarán los sonidos ni las vibraciones, excepto las alarmas, los recordatorios, los eventos y las llamadas que especifiques. Seguirás escuchando el contenido que quieras reproducir, como música, vídeos y juegos.</string>
     <string name="zen_silence_introduction">Este modo permite bloquear TODOS los sonidos y todas las vibraciones (p. ej., los de alarmas, música, vídeos y juegos).</string>
     <string name="zen_silence_introduction_voice">Esta opción bloqueará TODOS los sonidos y todas las vibraciones, por ejemplo, los vídeos, los juegos, las alarmas y la música. Seguirás pudiendo hacer llamadas.</string>
+    <string name="qs_recovery_confirmation">Activar diálogo de confirmación</string>
+    <string name="qs_recovery_confirmation_message">Seguro que queres reiniciar en modo recovery?</string>
+    <string name="qs_recovery_tile">Recovery</string>
 </resources>

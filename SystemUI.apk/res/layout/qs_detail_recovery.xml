@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.AlphaOptimizedLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:textAppearance="@style/TextAppearance.QS.DetailContentPrimary" android:id="@+id/grswitch" android:tag="grswitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qs_recovery_confirmation" />
+</com.android.keyguard.AlphaOptimizedLinearLayout>
