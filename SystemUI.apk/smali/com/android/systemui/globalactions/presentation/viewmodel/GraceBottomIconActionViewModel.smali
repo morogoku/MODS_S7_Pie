@@ -3,11 +3,11 @@
 .source "GraceBottomIconActionViewModel.java"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/presentation/viewmodel/ActionViewModel;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModel;
 
 
 # instance fields
-.field private mInfo:Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;
+.field private mInfo:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;
 
 
 # direct methods
@@ -21,10 +21,10 @@
 
 
 # virtual methods
-.method public getActionInfo()Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;
+.method public getActionInfo()Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;
     .locals 1
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/presentation/viewmodel/GraceBottomIconActionViewModel;->mInfo:Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/presentation/viewmodel/GraceBottomIconActionViewModel;->mInfo:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;
 
     return-object v0
 .end method
@@ -35,10 +35,10 @@
     return-void
 .end method
 
-.method public setActionInfo(Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;)V
+.method public setActionInfo(Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/android/systemui/globalactions/presentation/viewmodel/GraceBottomIconActionViewModel;->mInfo:Lcom/samsung/android/globalactions/presentation/viewmodel/ActionInfo;
+    iput-object p1, p0, Lcom/android/systemui/globalactions/presentation/viewmodel/GraceBottomIconActionViewModel;->mInfo:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;
 
     return-void
 .end method

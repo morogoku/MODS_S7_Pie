@@ -4,17 +4,17 @@
 
 
 # instance fields
-.field private mClearCoverListener:Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+.field private mClearCoverListener:Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
 
 .field private final mCoverManager:Lcom/samsung/android/sdk/cover/ScoverManager;
 
 .field mListener:Lcom/samsung/android/sdk/cover/ScoverManager$StateListener;
 
-.field private final mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+.field private final mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
     .locals 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -31,23 +31,23 @@
 
     iput-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mCoverManager:Lcom/samsung/android/sdk/cover/ScoverManager;
 
-    iput-object p2, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iput-object p2, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactions/util/LogWrapper;
+.method static synthetic access$000(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
     .locals 1
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     return-object v0
 .end method
 
-.method static synthetic access$100(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+.method static synthetic access$100(Lcom/android/systemui/globalactions/util/CoverUtil;)Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
     .locals 1
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mClearCoverListener:Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mClearCoverListener:Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
 
     return-object v0
 .end method
@@ -57,17 +57,17 @@
 .method public dispose()V
     .locals 3
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v1, "CoverUtil"
 
     const-string v2, "dispose"
 
-    invoke-virtual {v0, v1, v2}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mClearCoverListener:Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+    iput-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mClearCoverListener:Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
 
     iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mCoverManager:Lcom/samsung/android/sdk/cover/ScoverManager;
 
@@ -103,7 +103,7 @@
 
     xor-int/lit8 v1, v1, 0x1
 
-    iget-object v2, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v2, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v3, "CoverUtil"
 
@@ -121,36 +121,36 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     return v1
 
     :cond_0
-    iget-object v1, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v1, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v2, "CoverUtil"
 
     const-string v3, "isClearCoverClosed: no cover or not a clear cover."
 
-    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
     return v1
 .end method
 
-.method public registerClearCoverStateListener(Lcom/samsung/android/globalactions/util/ClearCoverStateListener;)V
+.method public registerClearCoverStateListener(Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;)V
     .locals 3
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v1, "CoverUtil"
 
     const-string/jumbo v2, "registerClearCoverStateListener"
 
-    invoke-virtual {v0, v1, v2}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
-    iput-object p1, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mClearCoverListener:Lcom/samsung/android/globalactions/util/ClearCoverStateListener;
+    iput-object p1, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mClearCoverListener:Lcom/samsung/android/globalactionsdlx/util/ClearCoverStateListener;
 
     iget-object v0, p0, Lcom/android/systemui/globalactions/util/CoverUtil;->mCoverManager:Lcom/samsung/android/sdk/cover/ScoverManager;
 

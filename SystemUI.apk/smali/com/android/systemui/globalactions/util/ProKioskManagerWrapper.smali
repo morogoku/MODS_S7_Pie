@@ -6,7 +6,7 @@
 # instance fields
 .field mContext:Landroid/content/Context;
 
-.field final mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+.field final mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
 .field mProKioskManager:Lcom/samsung/android/knox/custom/ProKioskManager;
 
@@ -14,7 +14,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
     .locals 1
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -25,7 +25,7 @@
 
     iput-object v0, p0, Lcom/android/systemui/globalactions/util/ProKioskManagerWrapper;->mProKioskManager:Lcom/samsung/android/knox/custom/ProKioskManager;
 
-    iput-object p2, p0, Lcom/android/systemui/globalactions/util/ProKioskManagerWrapper;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iput-object p2, p0, Lcom/android/systemui/globalactions/util/ProKioskManagerWrapper;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     iput-object p1, p0, Lcom/android/systemui/globalactions/util/ProKioskManagerWrapper;->mContext:Landroid/content/Context;
 
@@ -135,7 +135,7 @@
     :catch_0
     move-exception v1
 
-    iget-object v2, p0, Lcom/android/systemui/globalactions/util/ProKioskManagerWrapper;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v2, p0, Lcom/android/systemui/globalactions/util/ProKioskManagerWrapper;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v3, "ProKioskManagerWrapper"
 
@@ -153,7 +153,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactions/util/LogWrapper;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v2, v3, v4}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return v0

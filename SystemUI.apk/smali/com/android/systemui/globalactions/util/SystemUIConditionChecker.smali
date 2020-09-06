@@ -3,28 +3,28 @@
 .source "SystemUIConditionChecker.java"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/util/ConditionChecker;
+.implements Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
 
 # instance fields
-.field private final mDefaultSystemCondition:Lcom/samsung/android/globalactions/util/ConditionChecker;
+.field private final mDefaultSystemCondition:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-.field private final mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+.field private final mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
-.field private final mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+.field private final mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
 
 # direct methods
-.method public constructor <init>(Lcom/samsung/android/globalactions/util/UtilFactory;Lcom/samsung/android/globalactions/util/ConditionChecker;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+.method public constructor <init>(Lcom/samsung/android/globalactionsdlx/util/UtilFactory;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iput-object p1, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
-    iput-object p2, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iput-object p2, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-    iput-object p3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iput-object p3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     return-void
 .end method
@@ -54,11 +54,11 @@
 
     if-eqz v3, :cond_0
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/KnoxEDMWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -83,11 +83,11 @@
 
     if-eqz v3, :cond_1
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/KnoxEDMWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -112,11 +112,11 @@
 
     if-eqz v3, :cond_2
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/KnoxEDMWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -141,11 +141,11 @@
 
     if-eqz v3, :cond_3
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/KnoxEDMWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -170,11 +170,11 @@
 
     if-eqz v3, :cond_4
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/ProKioskManagerWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -199,11 +199,11 @@
 
     if-eqz v3, :cond_5
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/KnoxCustomManagerWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -228,11 +228,11 @@
 
     if-eqz v3, :cond_6
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/KnoxCustomManagerWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -257,11 +257,11 @@
 
     if-eqz v3, :cond_7
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/CoverUtil;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -286,11 +286,11 @@
 
     if-eqz v3, :cond_8
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/KioskModeWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -315,11 +315,11 @@
 
     if-eqz v3, :cond_9
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactions/util/UtilFactory;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
 
     const-class v4, Lcom/android/systemui/globalactions/util/StatusBarWrapper;
 
-    invoke-interface {v3, v4}, Lcom/samsung/android/globalactions/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v3, v4}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -334,16 +334,16 @@
     :cond_9
     const/4 v2, 0x1
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactions/util/ConditionChecker;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mDefaultSystemCondition:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
 
-    invoke-interface {v3, p1}, Lcom/samsung/android/globalactions/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
+    invoke-interface {v3, p1}, Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;->isEnabled(Ljava/lang/Object;)Z
 
     move-result v1
 
     :goto_0
     if-nez v2, :cond_a
 
-    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v3, p0, Lcom/android/systemui/globalactions/util/SystemUIConditionChecker;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v4, "SystemUIConditionChecker"
 
@@ -371,7 +371,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactions/util/LogWrapper;->i(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v5}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_a
     return v1

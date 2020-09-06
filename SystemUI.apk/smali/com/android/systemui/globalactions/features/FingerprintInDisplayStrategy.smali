@@ -3,9 +3,9 @@
 .source "FingerprintInDisplayStrategy.java"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/presentation/strategies/ActionsCreationStrategy;
-.implements Lcom/samsung/android/globalactions/presentation/strategies/DisposingStrategy;
-.implements Lcom/samsung/android/globalactions/presentation/strategies/SecureConfirmStrategy;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/strategies/ActionsCreationStrategy;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/strategies/DisposingStrategy;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/strategies/SecureConfirmStrategy;
 
 
 # instance fields
@@ -37,7 +37,7 @@
     return-void
 .end method
 
-.method public onCreateActions(Lcom/samsung/android/globalactions/presentation/SecGlobalActions;)V
+.method public onCreateActions(Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;)V
     .locals 2
 
     iget-object v0, p0, Lcom/android/systemui/globalactions/features/FingerprintInDisplayStrategy;->mKeyguardUpdateMonitorWrapper:Lcom/android/systemui/globalactions/util/KeyguardUpdateMonitorWrapper;

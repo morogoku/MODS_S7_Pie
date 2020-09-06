@@ -3,7 +3,7 @@
 .source "FakeFeatures.java"
 
 # interfaces
-.implements Lcom/samsung/android/globalactions/presentation/features/Features;
+.implements Lcom/samsung/android/globalactionsdlx/presentation/features/Features;
 
 
 # static fields
@@ -22,9 +22,9 @@
 # instance fields
 .field mContext:Landroid/content/Context;
 
-.field private final mDefaultFeatures:Lcom/samsung/android/globalactions/presentation/features/Features;
+.field private final mDefaultFeatures:Lcom/samsung/android/globalactionsdlx/presentation/features/Features;
 
-.field private final mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+.field private final mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
 .field private mReceiver:Landroid/content/BroadcastReceiver;
 
@@ -42,26 +42,26 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactions/presentation/features/Features;Lcom/samsung/android/globalactions/util/LogWrapper;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/samsung/android/globalactionsdlx/presentation/features/Features;Lcom/samsung/android/globalactionsdlx/util/LogWrapper;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mContext:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mDefaultFeatures:Lcom/samsung/android/globalactions/presentation/features/Features;
+    iput-object p2, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mDefaultFeatures:Lcom/samsung/android/globalactionsdlx/presentation/features/Features;
 
-    iput-object p3, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iput-object p3, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     invoke-direct {p0}, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->init()V
 
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactions/util/LogWrapper;
+.method static synthetic access$000(Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;)Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
     .locals 1
 
-    iget-object v0, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     return-object v0
 .end method
@@ -108,13 +108,13 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v1, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v2, "FakeFeatures"
 
     const-string v3, "initialized"
 
-    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -144,7 +144,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactions/util/LogWrapper;
+    iget-object v1, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mLogWrapper:Lcom/samsung/android/globalactionsdlx/util/LogWrapper;
 
     const-string v2, "FakeFeatures"
 
@@ -168,14 +168,14 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactions/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Lcom/samsung/android/globalactionsdlx/util/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mDefaultFeatures:Lcom/samsung/android/globalactions/presentation/features/Features;
+    iget-object v0, p0, Lcom/android/systemui/globalactions/presentation/features/FakeFeatures;->mDefaultFeatures:Lcom/samsung/android/globalactionsdlx/presentation/features/Features;
 
-    invoke-interface {v0, p1}, Lcom/samsung/android/globalactions/presentation/features/Features;->isEnabled(Ljava/lang/String;)Z
+    invoke-interface {v0, p1}, Lcom/samsung/android/globalactionsdlx/presentation/features/Features;->isEnabled(Ljava/lang/String;)Z
 
     move-result v0
 
