@@ -86,6 +86,123 @@
 
     move-result v13
 
+    const-string v14, "recovery"
+
+    if-ne v14, v11, :cond_100
+
+    new-instance v15, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/RecoveryActionViewModel;
+
+    iget-object v3, v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->mConditionChecker:Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;
+
+    iget-object v4, v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->mSAnalytics:Lcom/samsung/android/globalactionsdlx/util/SecGlobalActionsAnalytics;
+
+    iget-object v1, v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
+
+    const-class v2, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsManager;
+
+    invoke-interface {v1, v2}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v5, v1
+
+    check-cast v5, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsManager;
+
+    iget-object v6, v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->mFeatureFactory:Lcom/samsung/android/globalactionsdlx/presentation/features/FeatureFactory;
+
+    iget-object v1, v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
+
+    const-class v2, Lcom/samsung/android/globalactionsdlx/util/ToastController;
+
+    invoke-interface {v1, v2}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v7, v1
+
+    check-cast v7, Lcom/samsung/android/globalactionsdlx/util/ToastController;
+
+    iget-object v1, v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
+
+    const-class v2, Lcom/samsung/android/globalactionsdlx/util/KeyGuardManagerWrapper;
+
+    invoke-interface {v1, v2}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v8, v1
+
+    check-cast v8, Lcom/samsung/android/globalactionsdlx/util/KeyGuardManagerWrapper;
+
+    iget-object v1, v0, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->mUtilFactory:Lcom/samsung/android/globalactionsdlx/util/UtilFactory;
+
+    const-class v2, Lcom/samsung/android/globalactionsdlx/util/ResourcesWrapper;
+
+    invoke-interface {v1, v2}, Lcom/samsung/android/globalactionsdlx/util/UtilFactory;->get(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    move-object v9, v1
+
+    check-cast v9, Lcom/samsung/android/globalactionsdlx/util/ResourcesWrapper;
+
+    move-object v1, v15
+
+    move-object v2, v10
+
+    invoke-direct/range {v1 .. v9}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/RecoveryActionViewModel;-><init>(Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;Lcom/samsung/android/globalactionsdlx/util/ConditionChecker;Lcom/samsung/android/globalactionsdlx/util/SecGlobalActionsAnalytics;Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsManager;Lcom/samsung/android/globalactionsdlx/presentation/features/FeatureFactory;Lcom/samsung/android/globalactionsdlx/util/ToastController;Lcom/samsung/android/globalactionsdlx/util/KeyGuardManagerWrapper;Lcom/samsung/android/globalactionsdlx/util/ResourcesWrapper;)V
+
+    const-string/jumbo v2, "recovery"
+
+    invoke-virtual {v12, v2}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;->setName(Ljava/lang/String;)V
+ 
+    const-string v2, "recovery"
+
+    const-string v3, "string"
+
+    invoke-direct {v0, v2, v3}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->getIdentifier(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v0, v2}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->getResString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v12, v2}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;->setLabel(Ljava/lang/String;)V
+
+    const-string v2, "recovery_confirm"
+
+    const-string v3, "string"
+
+    invoke-direct {v0, v2, v3}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->getIdentifier(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {v0, v2}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->getResString(I)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v12, v3}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;->setDescription(Ljava/lang/String;)V
+
+    const-string v2, "tw_ic_do_recovery_stock"
+
+    const-string v3, "drawable"
+
+    invoke-direct {v0, v2, v3}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/DefaultActionViewModelFactory;->getIdentifier(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result v3
+
+    invoke-virtual {v12, v3}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;->setIcon(I)V
+
+    sget-object v3, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ViewType;->CENTER_ICON_3P_VIEW:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ViewType;
+
+    invoke-virtual {v12, v3}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;->setViewType(Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ViewType;)V
+
+    invoke-interface {v1, v12}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModel;->setActionInfo(Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionInfo;)V
+
+    return-object v1
+
+    :cond_100
     const/4 v14, 0x0
 
     invoke-virtual/range {p2 .. p2}, Ljava/lang/String;->hashCode()I

@@ -3566,6 +3566,8 @@ Any user can update apps for all other users."</string>
     <string name="qs_recovery_confirmation">Enable confirmation dialog</string>
     <string name="qs_recovery_confirmation_message">Are ytou sure you want to go to recovery?</string>
     <string name="qs_recovery_tile">Recovery</string>
+    <string name="recovery">Reboot in recovery mode</string>
+    <string name="recovery_confirm">Tap again to reboot in recovery mode</string>
     <item type="string" name="APKTOOL_DUMMY_30c">false</item>
     <item type="string" name="APKTOOL_DUMMY_440">false</item>
     <item type="string" name="APKTOOL_DUMMY_560">false</item>

@@ -514,6 +514,16 @@
     invoke-virtual {p0, v2}, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsPresenter;->addAction(Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModel;)V
 
     :cond_93
+    iget-object v0, p0, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsPresenter;->mViewModelFactory:Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;
+
+    const-string/jumbo v1, "recovery"
+
+    invoke-interface {v0, p0, v1}, Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModelFactory;->createActionViewModel(Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActions;Ljava/lang/String;)Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModel;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/samsung/android/globalactionsdlx/presentation/SecGlobalActionsPresenter;->addAction(Lcom/samsung/android/globalactionsdlx/presentation/viewmodel/ActionViewModel;)V
+
     return-void
 .end method
 

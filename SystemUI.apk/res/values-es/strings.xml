@@ -1469,4 +1469,6 @@ Cualquier usuario puede actualizar las aplicaciones del resto de usuarios."</str
     <string name="qs_recovery_confirmation">Activar diálogo de confirmación</string>
     <string name="qs_recovery_confirmation_message">Seguro que queres reiniciar en modo recovery?</string>
     <string name="qs_recovery_tile">Recovery</string>
+    <string name="recovery">Recovery</string>
+    <string name="recovery_confirm">Pulse de nuevo para reiniciar en modo recovery</string>
 </resources>
