@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="checkbox" />
+    <item type="id" name="textView" />
+    <item type="id" name="linktext" />
+    <item type="id" name="handle1" />
+    <item type="id" name="mtp_animation_status" />
+</resources>

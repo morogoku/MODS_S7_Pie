@@ -1,0 +1,38 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: RmzQEx3VN/TfacJQigRD2T9R7ik=
+
+Name: res/xml/mediacategories.xml
+SHA1-Digest: VIaXqZ2RkqBDk1KlICYobX37Sss=
+
+Name: res/layout/checkbox.xml
+SHA1-Digest: XlN+OgUW0I0wo7b+gTGt0q1uvLI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: YP6uBZqO5kiDErFBMQh5N/ZsS/Y=
+
+Name: SEC-INF/buildConfirm.crt
+SHA1-Digest: ir36zvd3F1FnMg/xKS909hQVlS8=
+
+Name: res/drawable/stat_sys_phone_call.webp
+SHA1-Digest: VTD9CiqptWZu4UNzuVz2KXuAomk=
+
+Name: res/layout/linktext.xml
+SHA1-Digest: Y2ZMj4zBoBSYZGpbTblnHnJwf64=
+
+Name: res/layout/main.xml
+SHA1-Digest: 0t6QPNEdcgCt29e+ScPt5qNSrXQ=
+
+Name: SEC-INF/buildinfo.xml
+SHA1-Digest: u/MkiYA2iR0oqn4ALdb0tLT+BZc=
+
+Name: resources.arsc
+SHA1-Digest: Wj3ePC6rgzM2smuNuTR0kM4FKPk=
+
+Name: res/drawable/stat_sys_data_usb.webp
+SHA1-Digest: HMfzfXrCjaB+YaIdmKstwqCL4Ck=
+
+Name: classes.dex
+SHA1-Digest: b3/bw5cNn3KkvxB/pRIhyYeYkpQ=
+
