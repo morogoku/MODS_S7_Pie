@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/package_list_scroll_layout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/package_list_full_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/package_list_area_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/BasicDescription" android:id="@id/explain_for_floating_noti" android:paddingTop="@dimen/settings_manage_notification_desc_top_margin" android:paddingBottom="@dimen/settings_manage_notification_desc_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str_smart_pop_up_view_description" android:layout_alignParentTop="true" android:paddingStart="@dimen/settings_description_side_padding" android:paddingEnd="@dimen/settings_description_side_padding" style="@style/BasicDescriptionStyle" />
+                <View android:id="@id/app_only_mode_swtich_upperline" android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.samsung.android.systemui.smartpopupview.CustomSwitchView android:id="@id/app_only_mode_swtich" android:paddingLeft="@dimen/app_side_margin" android:paddingTop="@dimen/custom_switchview_top_bottom_padding" android:paddingRight="@dimen/app_side_margin" android:paddingBottom="@dimen/custom_switchview_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:description="@string/str_use_app_only_explain" custom:maintitle="@string/str_use_app_only_title" />
+                <View android:id="@id/disable_hun_swtich_upperline" android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.samsung.android.systemui.smartpopupview.CustomSwitchView android:id="@id/disable_hun_swtich" android:paddingLeft="@dimen/app_side_margin" android:paddingTop="@dimen/custom_switchview_top_bottom_padding" android:paddingRight="@dimen/app_side_margin" android:paddingBottom="@dimen/custom_switchview_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:description="@string/str_disable_hun_explain" custom:maintitle="@string/str_disable_hun_title" />
+            </LinearLayout>
+            <View android:id="@id/divider_between_views" android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            <com.samsung.android.systemui.smartpopupview.floatingactivity.presentation.widget.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/package_list_area_2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/divider_title_suggested_apps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="24.0dip">
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/suggest_sub_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_suggested_app" android:paddingEnd="0.0dip" style="?android:listSeparatorTextViewStyle" />
+                    <com.samsung.android.systemui.smartpopupview.floatingactivity.presentation.widget.DrawerDividerView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="6.0px" android:layout_marginTop="5.0dip" android:layout_marginStart="16.0dip" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <android.support.v7.widget.RecyclerView android:id="@id/list_view" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/packagelist_loading_bar" android:visibility="gone" android:layout_width="@dimen/packagelist_loading_progressbar_size" android:layout_height="@dimen/packagelist_loading_progressbar_size" android:indeterminate="true" />
+                </FrameLayout>
+            </com.samsung.android.systemui.smartpopupview.floatingactivity.presentation.widget.RoundedCornerLinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <Button android:id="@id/go_to_top" android:background="@drawable/sem_go_to_top_light" android:visibility="gone" android:layout_width="@dimen/spv_go_to_top_size" android:layout_height="@dimen/spv_go_to_top_size" android:layout_marginBottom="@dimen/spv_go_to_top_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/go_to_top" />
+</RelativeLayout>

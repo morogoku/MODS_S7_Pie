@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_side_padding">50.0dip</dimen>
+    <dimen name="notification_panel_height_for_tablet">536.0dip</dimen>
+    <item type="dimen" name="qs_tile_height_tablet_ratio">6.13</item>
+    <dimen name="screen_pinning_request_side_width">44.0dip</dimen>
+</resources>

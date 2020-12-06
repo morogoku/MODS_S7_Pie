@@ -1,0 +1,165 @@
+.class Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;
+.super Ljava/lang/Object;
+.source "KeyguardTouchLockScreenManager.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 4
+
+    const-string v0, "KeyguardTouchLockScreenManager"
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Restart ["
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v2, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v2}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$100(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v2, "]["
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v2, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v2}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$200(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "]"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    iget-object v0, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v0}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$200(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v0}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$100(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)I
+
+    move-result v0
+
+    const/4 v1, -0x1
+
+    if-eq v0, v1, :cond_0
+
+    invoke-static {}, Lcom/samsung/android/multidisplay/MultiDisplayManager;->getInstance()Lcom/samsung/android/multidisplay/MultiDisplayManager;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v1}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$200(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)Ljava/lang/String;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v2}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$100(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)I
+
+    move-result v2
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v0, v1, v2, v3}, Lcom/samsung/android/multidisplay/MultiDisplayManager;->killPackageProcess(Ljava/lang/String;IZ)V
+
+    goto :goto_0
+
+    :cond_0
+    const-string v0, "KeyguardTouchLockScreenManager"
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Restart failed ["
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v2, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v2}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$100(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)I
+
+    move-result v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v2, "]["
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v2, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-static {v2}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->access$200(Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "]"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_0
+    const-string v0, "820"
+
+    const-string v1, "8201"
+
+    invoke-static {v0, v1}, Lcom/android/systemui/util/SystemUIAnalytics;->sendEventLog(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager$1;->this$0:Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;
+
+    invoke-virtual {v0}, Lcom/android/systemui/keyguard/KeyguardTouchLockScreenManager;->unlock()V
+
+    return-void
+.end method

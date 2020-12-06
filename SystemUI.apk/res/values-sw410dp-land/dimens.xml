@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_panel_height_for_tablet">476.0dip</dimen>
+    <item type="dimen" name="qs_detail_height">@dimen/match_parent</item>
+    <dimen name="qs_edit_tile_vertical_margin">17.0dip</dimen>
+    <item type="dimen" name="qs_tile_height_tablet_ratio">4.59</item>
+</resources>

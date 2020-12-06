@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="battery_detail_graph_space_bottom">9.0dip</dimen>
+    <dimen name="battery_detail_graph_space_top">9.0dip</dimen>
+    <dimen name="brightness_mirror_height">40.0dip</dimen>
+    <dimen name="close_handle_underlap">0.0dip</dimen>
+    <dimen name="docked_divider_handle_height">16.0dip</dimen>
+    <dimen name="docked_divider_handle_width">2.25dip</dimen>
+    <dimen name="mr_controller_volume_group_list_item_height">61.0dip</dimen>
+    <dimen name="mr_controller_volume_group_list_item_icon_size">18.0dip</dimen>
+    <dimen name="mr_controller_volume_group_list_max_height">132.0dip</dimen>
+    <item type="dimen" name="navigation_bar_size">@android:dimen/navigation_bar_width</item>
+    <dimen name="notification_min_interaction_height">20.0dip</dimen>
+    <dimen name="notification_panel_height_for_tablet">476.0dip</dimen>
+    <item type="dimen" name="notification_panel_width_ratio_for_tablet">0.65</item>
+    <dimen name="notification_preview_icon_slot_view_start_margin">65.5dip</dimen>
+    <dimen name="qs_detail_content_top_margin">0.0dip</dimen>
+    <item type="dimen" name="qs_detail_height">@dimen/match_parent</item>
+    <dimen name="qs_detail_margin_top">0.0dip</dimen>
+    <dimen name="qs_edit_summary_layout_height">56.0dip</dimen>
+    <dimen name="qs_edit_summary_layout_marginBottom">5.0dip</dimen>
+    <dimen name="qs_edit_summary_layout_marginTop">5.0dip</dimen>
+    <dimen name="qs_edit_tile_vertical_margin">17.0dip</dimen>
+    <dimen name="qs_handler_height">15.0dip</dimen>
+    <dimen name="qs_header_tooltip_height">24.0dip</dimen>
+    <dimen name="qs_multisim_preffered_slot_height">32.0dip</dimen>
+    <dimen name="qs_page_indicator_margin_bottom">0.0dip</dimen>
+    <dimen name="qs_panel_blank_top_margin">0.0dip</dimen>
+    <dimen name="qs_tile_anim_y_diff">15.0dip</dimen>
+    <dimen name="qs_tile_height_3x3">90.0dip</dimen>
+    <item type="dimen" name="qs_tile_height_3x3_ratio">3.75</item>
+    <dimen name="qs_tile_height_4x3">90.0dip</dimen>
+    <item type="dimen" name="qs_tile_height_4x3_ratio">3.75</item>
+    <item type="dimen" name="qs_tile_height_4x3_ratio_winner">5.85</item>
+    <dimen name="qs_tile_height_5x3">84.0dip</dimen>
+    <item type="dimen" name="qs_tile_height_5x3_ratio">3.75</item>
+    <item type="dimen" name="qs_tile_height_5x3_ratio_winner">5.68</item>
+    <item type="dimen" name="qs_tile_height_ratio_winner_sub_display">3.33</item>
+    <item type="dimen" name="qs_tile_height_tablet_ratio">4.59</item>
+    <item type="dimen" name="qs_tile_icon_size_3x3_ratio">2.48</item>
+    <item type="dimen" name="qs_tile_icon_size_4x3_ratio">2.48</item>
+    <item type="dimen" name="qs_tile_icon_size_5x3_ratio">2.48</item>
+    <dimen name="qs_tile_layout_margin_bottom_3x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_bottom_4x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_bottom_5x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_top_3x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_top_4x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_top_5x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_vertical_3x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_vertical_4x3">0.0dip</dimen>
+    <dimen name="qs_tile_layout_margin_vertical_5x3">0.0dip</dimen>
+    <dimen name="qs_tile_margin_bottom">0.0dip</dimen>
+    <dimen name="qs_tile_margin_top">0.0dip</dimen>
+    <dimen name="qs_tile_margin_vertical">0.0dip</dimen>
+    <item type="dimen" name="qs_tile_width_3x3_ratio">9.47</item>
+    <item type="dimen" name="qs_tile_width_4x3_ratio">9.47</item>
+    <item type="dimen" name="qs_tile_width_4x3_ratio_winner">9.42</item>
+    <item type="dimen" name="qs_tile_width_5x3_ratio">9.47</item>
+    <item type="dimen" name="qs_tile_width_5x3_ratio_winner">10.78</item>
+    <item type="dimen" name="qs_tile_width_ratio_winner_sub_display">10.0</item>
+    <dimen name="qspanel_brightness_height">32.0dip</dimen>
+    <dimen name="qspanel_handler_layout_margin_bottom">0.0dip</dimen>
+    <dimen name="quick_qs_panel_bottom_margin">12.0dip</dimen>
+    <dimen name="quick_qs_panel_top_margin">51.0dip</dimen>
+    <item type="dimen" name="servicebox_bottom_margin_ratio">@dimen/servicebox_bottom_margin_ratio_land</item>
+    <dimen name="servicebox_card_notifications_margin">3.0dip</dimen>
+    <dimen name="servicebox_icon_notifications_margin">3.0dip</dimen>
+    <item type="dimen" name="servicebox_tablet_bottom_margin_ratio">@dimen/servicebox_tablet_bottom_margin_ratio_land</item>
+    <dimen name="servicebox_typo_notifications_margin">3.0dip</dimen>
+    <dimen name="side_screen_menu_handler_height">45.0dip</dimen>
+    <dimen name="side_screen_menu_handler_touch_height">90.0dip</dimen>
+    <dimen name="side_screen_menu_handler_touch_width">40.0dip</dimen>
+    <dimen name="side_screen_menu_handler_width">5.0dip</dimen>
+    <dimen name="volume_dialog_margin_top">0.0dip</dimen>
+</resources>

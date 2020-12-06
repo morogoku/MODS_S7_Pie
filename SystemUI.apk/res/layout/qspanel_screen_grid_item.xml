@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/grid_image" android:background="@drawable/ripple_drawable_grid_popup" android:focusable="true" android:layout_width="wrap_content" android:layout_height="72.0dip" android:scaleType="center" android:tint="@color/qspanel_screen_grid_tint" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/qspanel_screen_grid_text_color" android:gravity="center|top" android:id="@id/grid_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-condensed" />
+</LinearLayout>
